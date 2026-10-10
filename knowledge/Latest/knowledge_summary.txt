@@ -1,0 +1,41 @@
+SV13 KNOWLEDGE PACKAGE
+Toolkit: 0.7.0
+Knowledge schema: 1
+Package: 20261008-023146
+Generated UTC: 2026-10-08T02:31:46.4214761Z
+Unity: 2022.3.62f3
+Project: TestAssets
+Export duration: 12.63s
+
+COUNTS
+Items: 222
+Recipes: 81
+Item categories: 25
+Buildables: 30
+Build materials: 11
+Crops: 8
+Fishing bait: 12
+Fishing loot: 9
+Documents: 33
+Levels: 14
+Loot tables: 5
+
+VALIDATION
+Issues: 7
+Warnings: 7
+Errors: 0
+  DUPLICATE_BUILDING_PIECE_ID: 4
+  DUPLICATE_ITEM_ID: 3
+
+CONTENT STATUS
+  ProjectIntegratedCandidate: 284
+  SV13AuthoredCandidate: 59
+  TemplateExampleReview: 16
+  Unreviewed: 6
+  LegacyReview: 4
+
+BOT CONTRACT
+Stable folder: SV13_Knowledge/Latest
+Read manifest.json first.
+Use SHA-256 file hashes to detect which data files changed.
+Do not publish LegacyReview or TemplateExampleReview records without review.

@@ -1,0 +1,390 @@
+{
+    "baits": [
+        {
+            "assetName": "CommonBaitSTP",
+            "baitTier": "Uncommon",
+            "baitName": "Example Uncommon Bait",
+            "description": "Example Uncommon Bait",
+            "prefabName": "Pickup_FishingBait_Comman",
+            "prefabAssetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Prefabs/Pickup_FishingBait_Comman.prefab",
+            "linkedItems": [],
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Data/PickupsData/CommonBaitSTP.asset",
+                "guid": "e9a762a772550d6409e88cc21048b826",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "ProjectIntegratedCandidate",
+                "statusReason": "Asset lives inside the integrated _Core project tree."
+            }
+        },
+        {
+            "assetName": "EpicBait",
+            "baitTier": "Epic",
+            "baitName": "",
+            "description": "",
+            "prefabName": "ExampleBaitPrefab",
+            "prefabAssetPath": "Assets/_Core/Templates/FishingGameTool/Example/Prefabs/Bait/ExampleBaitPrefab.prefab",
+            "linkedItems": [],
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FishingGameTool/Example/FishingBaits/EpicBait.asset",
+                "guid": "2d78c17a1c41e4c43bcb5860c7439ec1",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "TemplateExampleReview",
+                "statusReason": "Generic FishingGameTool bait definition discovered without the STP integration naming."
+            }
+        },
+        {
+            "assetName": "EpicBaitSTP",
+            "baitTier": "Epic",
+            "baitName": "",
+            "description": "",
+            "prefabName": "Pickup_FishingBait_Epic",
+            "prefabAssetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Prefabs/Pickup_FishingBait_Epic.prefab",
+            "linkedItems": [],
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Data/PickupsData/EpicBaitSTP.asset",
+                "guid": "f0eead86b0f20c941afebca1ba76af24",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "ProjectIntegratedCandidate",
+                "statusReason": "Asset lives inside the integrated _Core project tree."
+            }
+        },
+        {
+            "assetName": "LegendaryBait",
+            "baitTier": "Legendary",
+            "baitName": "",
+            "description": "",
+            "prefabName": "ExampleBaitPrefab",
+            "prefabAssetPath": "Assets/_Core/Templates/FishingGameTool/Example/Prefabs/Bait/ExampleBaitPrefab.prefab",
+            "linkedItems": [],
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FishingGameTool/Example/FishingBaits/LegendaryBait.asset",
+                "guid": "a2bfb794935e7964fa0782de2453bbf1",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "TemplateExampleReview",
+                "statusReason": "Generic FishingGameTool bait definition discovered without the STP integration naming."
+            }
+        },
+        {
+            "assetName": "LegendaryBaitSTP",
+            "baitTier": "Legendary",
+            "baitName": "",
+            "description": "",
+            "prefabName": "Pickup_FishingBait_Legendary",
+            "prefabAssetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Prefabs/Pickup_FishingBait_Legendary.prefab",
+            "linkedItems": [],
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Data/PickupsData/LegendaryBaitSTP.asset",
+                "guid": "c2e9e8ac0f4edc74f8e61a0a4e3efc27",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "ProjectIntegratedCandidate",
+                "statusReason": "Asset lives inside the integrated _Core project tree."
+            }
+        },
+        {
+            "assetName": "RareBait",
+            "baitTier": "Rare",
+            "baitName": "",
+            "description": "",
+            "prefabName": "ExampleBaitPrefab",
+            "prefabAssetPath": "Assets/_Core/Templates/FishingGameTool/Example/Prefabs/Bait/ExampleBaitPrefab.prefab",
+            "linkedItems": [],
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FishingGameTool/Example/FishingBaits/RareBait.asset",
+                "guid": "4a16863d9072fa843bf87e349ec5b42c",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "TemplateExampleReview",
+                "statusReason": "Generic FishingGameTool bait definition discovered without the STP integration naming."
+            }
+        },
+        {
+            "assetName": "RareBaitSTP",
+            "baitTier": "Rare",
+            "baitName": "",
+            "description": "",
+            "prefabName": "Pickup_FishingBait_Rare",
+            "prefabAssetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Prefabs/Pickup_FishingBait_Rare.prefab",
+            "linkedItems": [],
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Data/PickupsData/RareBaitSTP.asset",
+                "guid": "c5153036e9d00db4cb03c6efd13a1ecb",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "ProjectIntegratedCandidate",
+                "statusReason": "Asset lives inside the integrated _Core project tree."
+            }
+        },
+        {
+            "assetName": "SimpleCommonBaitSTP",
+            "baitTier": "Uncommon",
+            "baitName": "Example Common Bait",
+            "description": "Example Common Bait",
+            "prefabName": "ExampleSTPBaitPrefabComman",
+            "prefabAssetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Prefabs/ExampleSTPBaitPrefabComman.prefab",
+            "linkedItems": [],
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Data/SimpleSwapPickupsData/SimpleCommonBaitSTP.asset",
+                "guid": "1dadba23642291940a8f18261cee3ef4",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "ProjectIntegratedCandidate",
+                "statusReason": "Asset lives inside the integrated _Core project tree."
+            }
+        },
+        {
+            "assetName": "SimpleEpicBaitSTP",
+            "baitTier": "Epic",
+            "baitName": "Example Epic Bait",
+            "description": "Example Epic Bait",
+            "prefabName": "ExampleSTPBaitPrefabEpic",
+            "prefabAssetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Prefabs/ExampleSTPBaitPrefabEpic.prefab",
+            "linkedItems": [],
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Data/SimpleSwapPickupsData/SimpleEpicBaitSTP.asset",
+                "guid": "891e4a440ff5cba47a5d30334db0090e",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "ProjectIntegratedCandidate",
+                "statusReason": "Asset lives inside the integrated _Core project tree."
+            }
+        },
+        {
+            "assetName": "SimpleLegendaryBaitSTP",
+            "baitTier": "Legendary",
+            "baitName": "Example Legendary Bait",
+            "description": "Example Legendary Bait",
+            "prefabName": "ExampleSTPBaitPrefabLegendary",
+            "prefabAssetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Prefabs/ExampleSTPBaitPrefabLegendary.prefab",
+            "linkedItems": [],
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Data/SimpleSwapPickupsData/SimpleLegendaryBaitSTP.asset",
+                "guid": "f75aa8ed2f2e5944f92b95a5b990a582",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "ProjectIntegratedCandidate",
+                "statusReason": "Asset lives inside the integrated _Core project tree."
+            }
+        },
+        {
+            "assetName": "SimpleRareBaitSTP",
+            "baitTier": "Rare",
+            "baitName": "Example Rare Bait",
+            "description": "Example Rare Bait",
+            "prefabName": "ExampleSTPBaitPrefabRare",
+            "prefabAssetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Prefabs/ExampleSTPBaitPrefabRare.prefab",
+            "linkedItems": [],
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Data/SimpleSwapPickupsData/SimpleRareBaitSTP.asset",
+                "guid": "1b622f8c86e71c041b857ba2bbd8a66b",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "ProjectIntegratedCandidate",
+                "statusReason": "Asset lives inside the integrated _Core project tree."
+            }
+        },
+        {
+            "assetName": "UncommonBait",
+            "baitTier": "Uncommon",
+            "baitName": "Example Uncommon Bait",
+            "description": "Example Uncommon Bait",
+            "prefabName": "ExampleBaitPrefab",
+            "prefabAssetPath": "Assets/_Core/Templates/FishingGameTool/Example/Prefabs/Bait/ExampleBaitPrefab.prefab",
+            "linkedItems": [],
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FishingGameTool/Example/FishingBaits/UncommonBait.asset",
+                "guid": "78ac01b256ffcae49828a39e2093a099",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "TemplateExampleReview",
+                "statusReason": "Generic FishingGameTool bait definition discovered without the STP integration naming."
+            }
+        }
+    ],
+    "loot": [
+        {
+            "assetName": "FishLoot",
+            "lootTier": "Common",
+            "lootType": "Item",
+            "lootRarity": 100.0,
+            "lootName": "Bream",
+            "description": "Dorade Royale",
+            "minWeight": 1.0,
+            "maxWeight": 3.0,
+            "prefabName": "Pickup_BreamFish",
+            "prefabAssetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Prefabs/Pickup_BreamFish.prefab",
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Data/FishLoot.asset",
+                "guid": "4a8e268e80b50e047b4064ee5024e616",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "ProjectIntegratedCandidate",
+                "statusReason": "Asset lives inside the integrated _Core project tree."
+            }
+        },
+        {
+            "assetName": "CommonLoot",
+            "lootTier": "Common",
+            "lootType": "Fish",
+            "lootRarity": 80.0,
+            "lootName": "Common Fish",
+            "description": "Example Common Fish.",
+            "minWeight": 1.0,
+            "maxWeight": 3.0,
+            "prefabName": "ExampleFishPrefab",
+            "prefabAssetPath": "Assets/_Core/Templates/FishingGameTool/Example/Prefabs/Loot/ExampleFishPrefab.prefab",
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FishingGameTool/Example/FishingLoot/CommonLoot.asset",
+                "guid": "dd19c46f920ade44892bc7fcadc5bec1",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "TemplateExampleReview",
+                "statusReason": "Generic FishingGameTool loot definition discovered without SV13-specific naming."
+            }
+        },
+        {
+            "assetName": "EpicLoot",
+            "lootTier": "Epic",
+            "lootType": "Item",
+            "lootRarity": 7.0,
+            "lootName": "Epic Item",
+            "description": "Example Epic Item",
+            "minWeight": 5.0,
+            "maxWeight": 10.0,
+            "prefabName": "ExampleItemPrefab",
+            "prefabAssetPath": "Assets/_Core/Templates/FishingGameTool/Example/Prefabs/Loot/ExampleItemPrefab.prefab",
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FishingGameTool/Example/FishingLoot/EpicLoot.asset",
+                "guid": "aff93508027c2104b8da9a4364555531",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "TemplateExampleReview",
+                "statusReason": "Generic FishingGameTool loot definition discovered without SV13-specific naming."
+            }
+        },
+        {
+            "assetName": "LegendaryLoot",
+            "lootTier": "Legendary",
+            "lootType": "Fish",
+            "lootRarity": 3.0,
+            "lootName": "Legendary Fish",
+            "description": "Example Legendary Fish.",
+            "minWeight": 5.0,
+            "maxWeight": 10.0,
+            "prefabName": "ExampleFishPrefab",
+            "prefabAssetPath": "Assets/_Core/Templates/FishingGameTool/Example/Prefabs/Loot/ExampleFishPrefab.prefab",
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FishingGameTool/Example/FishingLoot/LegendaryLoot.asset",
+                "guid": "7a736d496d94993478c515d25ef68967",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "TemplateExampleReview",
+                "statusReason": "Generic FishingGameTool loot definition discovered without SV13-specific naming."
+            }
+        },
+        {
+            "assetName": "ItemLootExample",
+            "lootTier": "Common",
+            "lootType": "Item",
+            "lootRarity": 50.0,
+            "lootName": "Metal Can",
+            "description": "",
+            "minWeight": 1.0,
+            "maxWeight": 3.0,
+            "prefabName": "STP_Pickup_LargeFoodCan",
+            "prefabAssetPath": "Assets/_Core/Templates/PolymindGames/STP/Prefabs/Items/STP_Pickup_LargeFoodCan.prefab",
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Data/ItemLootExample.asset",
+                "guid": "bd5fd804efc604749962819b3338a47d",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "TemplateExampleReview",
+                "statusReason": "Asset name contains a prototype/showcase/demo/example marker."
+            }
+        },
+        {
+            "assetName": "FishLoot Perch",
+            "lootTier": "Common",
+            "lootType": "Item",
+            "lootRarity": 100.0,
+            "lootName": "Perch",
+            "description": "",
+            "minWeight": 1.0,
+            "maxWeight": 3.0,
+            "prefabName": "Perch_fish_prefab",
+            "prefabAssetPath": "Assets/_Core/Prefabs/Characters/Animal pack deluxe/Prefabs/Perch_fish_prefab.prefab",
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Data/FishLoot Perch.asset",
+                "guid": "42f6c33fb44e7bf49875f25060bbe712",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "ProjectIntegratedCandidate",
+                "statusReason": "Asset lives inside the integrated _Core project tree."
+            }
+        },
+        {
+            "assetName": "FishLoot Pike",
+            "lootTier": "Common",
+            "lootType": "Item",
+            "lootRarity": 100.0,
+            "lootName": "Pike",
+            "description": "",
+            "minWeight": 1.0,
+            "maxWeight": 3.0,
+            "prefabName": "Pike_prefab",
+            "prefabAssetPath": "Assets/_Core/Prefabs/Characters/Animal pack deluxe/Prefabs/Pike_prefab.prefab",
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FISHTACOGAMES/Art/Fishing/Data/FishLoot Pike.asset",
+                "guid": "eef0d8223a888b64a8a17ea85e87626c",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "ProjectIntegratedCandidate",
+                "statusReason": "Asset lives inside the integrated _Core project tree."
+            }
+        },
+        {
+            "assetName": "RareLoot",
+            "lootTier": "Rare",
+            "lootType": "Item",
+            "lootRarity": 25.0,
+            "lootName": "Rare Item",
+            "description": "Example Rare Item.",
+            "minWeight": 2.0,
+            "maxWeight": 5.0,
+            "prefabName": "ExampleItemPrefab",
+            "prefabAssetPath": "Assets/_Core/Templates/FishingGameTool/Example/Prefabs/Loot/ExampleItemPrefab.prefab",
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FishingGameTool/Example/FishingLoot/RareLoot.asset",
+                "guid": "c24527e0f1c1f35499fe48f4d840a89e",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "TemplateExampleReview",
+                "statusReason": "Generic FishingGameTool loot definition discovered without SV13-specific naming."
+            }
+        },
+        {
+            "assetName": "UncommonLoot",
+            "lootTier": "Uncommon",
+            "lootType": "Fish",
+            "lootRarity": 50.0,
+            "lootName": "Uncommon Fish",
+            "description": "Example Uncommon Fish.",
+            "minWeight": 2.0,
+            "maxWeight": 5.0,
+            "prefabName": "ExampleFishPrefab",
+            "prefabAssetPath": "Assets/_Core/Templates/FishingGameTool/Example/Prefabs/Loot/ExampleFishPrefab.prefab",
+            "source": {
+                "assetPath": "Assets/_Core/Templates/FishingGameTool/Example/FishingLoot/UncommonLoot.asset",
+                "guid": "2739837538c4f7b4988f2dcd83abf80f",
+                "localFileId": 11400000,
+                "sourceBucket": "ProjectCore",
+                "contentStatus": "TemplateExampleReview",
+                "statusReason": "Generic FishingGameTool loot definition discovered without SV13-specific naming."
+            }
+        }
+    ]
+}

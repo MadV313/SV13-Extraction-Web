@@ -1,0 +1,1772 @@
+{
+  "knowledgeSchemaVersion": "1",
+  "toolkitVersion": "0.7.0",
+  "packageVersion": "20261008-023146",
+  "generatedUtc": "2026-10-08T02:31:46.4214761Z",
+  "unityVersion": "2022.3.62f3",
+  "projectName": "TestAssets",
+  "exportDurationSeconds": 12.6275053024292,
+  "counts": {
+    "items": 222,
+    "recipes": 81,
+    "itemCategories": 25,
+    "buildables": 30,
+    "buildMaterials": 11,
+    "crops": 8,
+    "fishingBaits": 12,
+    "fishingLoot": 9,
+    "documents": 33,
+    "levels": 14,
+    "lootTables": 5,
+    "validationIssues": 7,
+    "validationWarnings": 7,
+    "validationErrors": 0
+  },
+  "files": [
+    {
+      "fileName": "items.json",
+      "sha256": "03dd939ec0f5e3acd683bbb0d6ace57c527bbad7e2dd0c9d67f8627279ba5966",
+      "bytes": 308585,
+      "recordCount": 222
+    },
+    {
+      "fileName": "recipes.json",
+      "sha256": "6a80c139eb9e37e99d5ea44c6442b4f06efeea8d8cd52f64a50b26b706c49b5d",
+      "bytes": 74295,
+      "recordCount": 81
+    },
+    {
+      "fileName": "item_categories.json",
+      "sha256": "0c194d8aef84fc061e0f21e3afe16617aa73b2f65ae2537935cf21efcbf2e6f6",
+      "bytes": 67789,
+      "recordCount": 25
+    },
+    {
+      "fileName": "buildables.json",
+      "sha256": "c54d1316549cb60a00cfe010f3d4cbb876a835fac53e78224ce5cdac5b3efed7",
+      "bytes": 58784,
+      "recordCount": 30
+    },
+    {
+      "fileName": "build_materials.json",
+      "sha256": "5ab7a44cf335c29e17b3acf88db7372bb5ae7a78e8c0bb2bbcdc1089a0d53fab",
+      "bytes": 7813,
+      "recordCount": 11
+    },
+    {
+      "fileName": "crops.json",
+      "sha256": "480bbc9460fabb51c99d5594cf2f4375c56e53e258ce0b86bb0da9acd98be4d5",
+      "bytes": 9572,
+      "recordCount": 8
+    },
+    {
+      "fileName": "fishing.json",
+      "sha256": "51234b865e428563c4baaf460d880e0e5f30523424e6a0a1e2b23ee0581f4d12",
+      "bytes": 18525,
+      "recordCount": 21
+    },
+    {
+      "fileName": "documents.json",
+      "sha256": "ba9d1f10a013d29ee3efe0b5045efd021bc99d944ffc1b83b0671f1d483812da",
+      "bytes": 32977,
+      "recordCount": 33
+    },
+    {
+      "fileName": "levels.json",
+      "sha256": "b67f76e7ed67dcc997a885f3d9113e282f931bbea02607fde7ac596d13b87f62",
+      "bytes": 10311,
+      "recordCount": 14
+    },
+    {
+      "fileName": "loot_tables.json",
+      "sha256": "65bc16f9d7a77e0c8e294e37962a96a5250e60d2c4710c5e0354b71615e1942e",
+      "bytes": 49040,
+      "recordCount": 5
+    },
+    {
+      "fileName": "validation.json",
+      "sha256": "a0959d5c49f606e61469837192a6084cb1a413aa7d656cbaa652490812841d80",
+      "bytes": 4031,
+      "recordCount": 7
+    },
+    {
+      "fileName": "knowledge_summary.txt",
+      "sha256": "73504983ee61b5eb8afcae9e9212c900694d6c62f6a9f65baa27c433cf91d245",
+      "bytes": 853,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_08498f2e2d91_Key1Icon.png",
+      "sha256": "6fb9a2c7d58f144b417e3002225d27ee34ac0fd35b5de34fd6c3ca2a6b3f4e23",
+      "bytes": 1481,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_4506230f3555_Bream.png",
+      "sha256": "4a7a452d19485633b65f936d367cc2173ce305d1cb95c6dc4d7c2ec5edd67e21",
+      "bytes": 12448,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_6d64e7f7216c_PerchPNG.png",
+      "sha256": "39aecd15d5102c78b7b90de097e1d2defc360f9025758002cee82acb827383cf",
+      "bytes": 12208,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_dad7f98dcf0a_PikePNG.png",
+      "sha256": "701deed9285811187c62affaf6f1a073c634c042b0e20f7f5cc284e2dbafa5ef",
+      "bytes": 10083,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_c8ae43801fe8_RabbitPNG.png",
+      "sha256": "d4952d409ff52ffd9d1e9f968638298af36c2567fa611a8c935c84c0139e95b1",
+      "bytes": 12247,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_027b393517c0_basic-rgb-306216736-removebg-preview.png",
+      "sha256": "79a4b8697ac755bbcc25834134c46c2afec6bd737410bb28bad2deaa76577444",
+      "bytes": 110619,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_02390292dc9f_depositphotos_428538600-stock-illustration-white-line-worm-icon-isolated-removebg-preview.png",
+      "sha256": "efc07004d609ac8289574ca181dd098961e75edb278da0e72a70b264dded4f93",
+      "bytes": 46908,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_127a43cbc5fd_Screenshot_2026-01-23_164756-removebg-preview.png",
+      "sha256": "06d9a696c1d197529d0016124488523358980a97ee57b6ccb06e8011cd811bbe",
+      "bytes": 6058,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_06344290c5f9_Screenshot_2026-01-26_174238-removebg-preview.png",
+      "sha256": "5ddc0cfa45bed3da036ce722b30b67879b2c1f61a68a820997b0f6ce2e4eaa19",
+      "bytes": 14343,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_d18c8ae69619_Screenshot_2026-01-26_174419-removebg-preview.png",
+      "sha256": "9f8590815e249b3acf218381f5f61d62b933f47c4f8ea4cc183ea7af8f59217f",
+      "bytes": 11032,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_a0e4f896aac1_Screenshot_2026-01-26_174726-removebg-preview.png",
+      "sha256": "cb33bfe5ccd68d07f27351f875b6ff5e0c4e99facf9803ffcd9eb0d8aacafc19",
+      "bytes": 15174,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_cba74d9aec8a_Screenshot_2026-01-26_174810-removebg-preview.png",
+      "sha256": "2721fdfc09e49cb5b641588687a9056955668b50254594834ef3a1e38b1dfe69",
+      "bytes": 9623,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_f13e41f34dde_Screenshot_2026-03-01_172943-removebg-preview.png",
+      "sha256": "a8f01129d6d9d26fb51bf58c36e1dc475ad6a35659bf6b092be6c6be9d2435d1",
+      "bytes": 22751,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_0db4c59e3616_Screenshot_2026-03-01_173132-removebg-preview.png",
+      "sha256": "5dcf62284544d07d2950a98ca0df5bad0762cf59e64470628b09ba664ea8a9db",
+      "bytes": 20421,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_d1e605486b49_Screenshot_2026-03-01_173244-removebg-preview.png",
+      "sha256": "d2eea77f038472f6328f24cc8575886c52ad16059986320671255ed529b6dedf",
+      "bytes": 15814,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_324f483c99a6_CreditDriverPNG.png",
+      "sha256": "9f7ad85383149ca2dcc4a4a901d8b6b063c83668d9ac1d0b67e1bde528a46673",
+      "bytes": 56641,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_8655b65732fd_Icon_Empty_45ACP.png",
+      "sha256": "b0564a08d0378d5e959e74f5f208d0b44e181f010048faafc76c1686a71bd317",
+      "bytes": 69066,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_798b3e8eb443_Screenshot_2026-01-14_145254-removebg-preview.png",
+      "sha256": "54c80b477204d199aacf1ce9e4c7167f6c9ad47f038dd5f0bc71b317bb890d58",
+      "bytes": 10364,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_23537216419f_Screenshot_2026-01-17_212525-removebg-preview.png",
+      "sha256": "59f71a6f3e0b16039320223c7d358dda122ff86ed7be2369078d224bc96f15e7",
+      "bytes": 26341,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_7644a7357985_Screenshot_2026-02-10_140455-removebg-preview.png",
+      "sha256": "f7c6d93bb4cd408e816bb0798dd833a4fc6f716d41478aecda8103c3f0199f45",
+      "bytes": 10370,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_ef01993771d3_Screenshot_2026-02-20_165414-removebg-preview.png",
+      "sha256": "5cf1677e863c704dd8945ea05d110d15b5ab2948a1f91bb15df97f258fc7f817",
+      "bytes": 15583,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_2ccf13c6023f_Screenshot_2026-02-21_190426-removebg-preview.png",
+      "sha256": "6f3e47b99976d1562210d02bffe777f358ddae6023cd054eed3320457e36a2f5",
+      "bytes": 14548,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_758292077001_Screenshot_2026-02-21_190504-removebg-preview.png",
+      "sha256": "c8b8c7e032c866d5184c9d00c5b60f02d3a35b892b62b85bc252be86709cdb57",
+      "bytes": 11604,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_bed54da15575_Screenshot_2026-01-26_170542-removebg-preview.png",
+      "sha256": "6fb546e1742d185077ef47a25546af5d1caa1ef1827e52c8b1ca4e44e11b6ac9",
+      "bytes": 25299,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_fc24ead3f16c_Screenshot_2026-01-26_170622-removebg-preview.png",
+      "sha256": "e2333444d5fac13c01f2708d1f2f14b1bfa8b60fa1226c7ea5bf3d917ff28ec1",
+      "bytes": 26364,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_65acf6501420_Screenshot_2026-01-26_170708-removebg-preview.png",
+      "sha256": "24f8937b73337ccdced861d695116769ebff553895f8184888d67b8af381dccd",
+      "bytes": 25112,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_71600192bd35_Screenshot_2026-01-26_170748-removebg-preview.png",
+      "sha256": "352602d54cae00927be0664dc9318ce3883dc269856d8641a8a1d6c8d5823588",
+      "bytes": 26172,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_91d34fbb34d2_Screenshot_2026-03-01_172214-removebg-preview.png",
+      "sha256": "146885113038268e5b06009f483ec30f1fde9b2207c60b2aaa4b4f48cbeef574",
+      "bytes": 41500,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_128b0adad8f7_Screenshot_2026-03-01_172451-removebg-preview.png",
+      "sha256": "183d0fa35e1a81caf7c09898a42d7b16e29b089997a2e6d5b45bb0d9477d2328",
+      "bytes": 39536,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_aa48996a97f8_Screenshot_2026-03-01_172615-removebg-preview.png",
+      "sha256": "8559fa21f3c616084a92bf8dec9629b9a46b6e9604a05947bb6a720d95405f9d",
+      "bytes": 37933,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_79f8ce74baff_Screenshot_2026-01-26_163041-removebg-preview.png",
+      "sha256": "1899e132907d6cf7307edf547a13caafb69aa40d6a687899ed7c11f52fed3dc8",
+      "bytes": 6815,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_b0db959ef471_Screenshot_2026-01-26_164513-removebg-preview.png",
+      "sha256": "c8de6355b7fc54077ef7476b60085e985fc8d5b9e7eb0ad9cf39707142bd814f",
+      "bytes": 11927,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_0ca240fbe87d_outpost9image.png",
+      "sha256": "df50dd16b734df4979da522324ae7c5222d0bafe17b3cc7af1d080559cb60820",
+      "bytes": 584882,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_0d3e9e8f2a69_outpost9thumbnail.png",
+      "sha256": "4f7ba5dad035d21f410ae013ad02741366c4f1ff2219c7219df4088ff26baa00",
+      "bytes": 586489,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_2d9920d052b8_globus_2.png",
+      "sha256": "68db3d40ef729911f230672c487ba7539d36c72208d7c77cebc88e2dbaf35792",
+      "bytes": 8849,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_d7792e91782a_Key_4.png",
+      "sha256": "1fd3b8b40d06c866438f66b430e9de6c28c7f8b65fe8169efed95d27866f83bc",
+      "bytes": 7039,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_87c142fc1f6f_money_7.png",
+      "sha256": "b4a31e5b51c42c85973808139e749064d0b2253175a87d1fb8062326e5765625",
+      "bytes": 7805,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_d8b0d88aeb7e_meat_1.png",
+      "sha256": "a462eeb61e55a98623cc831cb4075c51949a8de179143c247b343cc7d433d5cf",
+      "bytes": 7349,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_c9d4d61905c0_backpack_1.png",
+      "sha256": "231d3e4b23a32dab556848caced3970f4edc5abbfa7177a72795a9ab4e72da66",
+      "bytes": 6157,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_07bacc5cfe6c_Ammo_Group_3.png",
+      "sha256": "16f674a1168cfb1669b817a2d201ccc3a5ee48a590d04a01af4ac198caa4de17",
+      "bytes": 5110,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_ef2fc7e4626b_bullet_proof_helmet_4.png",
+      "sha256": "b822068c21790c2ea4a77eaa37cb152a497154db3702a465d0bd189de90ddb6c",
+      "bytes": 3600,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_01cf5635d940_bulletproof_vest_1.png",
+      "sha256": "b7c4af69a00fad4c642993a0c864d9c07be9900f3ffb4ff7415b5dea72f13c12",
+      "bytes": 2349,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_2a2ea6ac31e3_DemoScreenBinoculars.png",
+      "sha256": "15c976d06409d9b8c14e8dae096543a87840d33fc02c2ae9809cee96f3b56255",
+      "bytes": 2184485,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_e673683af17a_DemoScreenBinocularsNight.png",
+      "sha256": "3c3a9b889c826ee12256975288ba752e025f30095d5c822d4df12372f25a0da6",
+      "bytes": 1134022,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_45d36fc15679_BAITICON.png",
+      "sha256": "d078bb037da3b605c0a5e6e96d4532f2ea7ee506f3a59b4d8d86c2d8ab3eff24",
+      "bytes": 575591,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_cbd32aad7d3c_FishingRodIcon.png",
+      "sha256": "0d5f0fb893b2dbd0a26c81f205bfc2cb0753aa1086f75a1b8e90c6b53d3ac9c8",
+      "bytes": 259774,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_a8bfc1316301_CliffDemoSceneIcon.png",
+      "sha256": "8502ee7d1200c949d2743b9aea8d3a6a86dc727ec2f5f75bdb5b6eaab60ff529",
+      "bytes": 2285114,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_994119fe519e_FTGParachuteIcon1.png",
+      "sha256": "f83b88ec81aae2ec348c57ef09936bb733fbf389c3b4b26ef13f666e807c7c70",
+      "bytes": 1724237,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_ce850ff68478_GliderIcon1.png",
+      "sha256": "1daf3b96b0761fcd630c6e1da43744affe6c44bde0ec67450ae2452d9e3a668b",
+      "bytes": 1661620,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_98d62a271438_SwimmingDemoScreen.png",
+      "sha256": "a28a6cbf6abdfe9822d2336265b58574fc7fcafea98e85e3a184d9ba5e8d93e0",
+      "bytes": 3482506,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_2967eb3dd43b_MagSprite.png",
+      "sha256": "25f44f925ccda0de72bb9512e9ef9e9841b4c42d7c21f8c0e727fcdaf8d73437",
+      "bytes": 13084,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_327ccb0141ab_FPS_ItemCategory_Ammo.png",
+      "sha256": "08ef79ee2e075a4d162477c91c5cb6eb3fd97d6ceae07a7171993bb655c733fa",
+      "bytes": 34029,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_848db93e36cb_FPS_ItemCategory_Firearms.png",
+      "sha256": "e37650c7a1dc46ae912f1ef926f6949c8f077d62dc6b710e9453c50bc9b43831",
+      "bytes": 20639,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_19e2cbda6df0_FPS_ItemCategory_Heals.png",
+      "sha256": "2e1d715501799aca38c3d31378d374623f8137a52e1ac2ebb34b8c29441853ab",
+      "bytes": 11536,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_fde6ed0703ec_FPS_ItemCategory_Melee.png",
+      "sha256": "4e614f21be243b411014601f9291246fe49cd86fd2f5de70403b8a072b390f4e",
+      "bytes": 20547,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_961c9c280d1c_FPS_ItemCategory_Throwables.png",
+      "sha256": "66fc6fead4d897a899fbc174a1f91097bc871260b7ab7a6b35dcdb36ff1da5ea",
+      "bytes": 31287,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_e69252bd4aa0_FPS_ItemCategory_Tools.png",
+      "sha256": "4f1451afeab57fba357d8c7ebcb692c8e22ad3277a472a38f90048ef506443bd",
+      "bytes": 16692,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_934c55fcd498_FPS_Item_SniperScope1.png",
+      "sha256": "f46121caa9b1e60487858bffe8dbd793a4a99f49e4465bbcace1b3dbe7f07b27",
+      "bytes": 154848,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_46f2388df6c4_FPS_Null.png",
+      "sha256": "18f4a1cd42487f18667071b2d0218d39a009b14b45754dfdfdbe4d492ae3e00a",
+      "bytes": 6101,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_81d7c4767c56_FPS_Attachment_Sight.png",
+      "sha256": "07409925effeee470ebdd34c3a56249ceb15044df0e053c5cfe117f491583a0c",
+      "bytes": 4329,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_ea96a1aa11e1_HQFPS_Item_12GaugeShell.png",
+      "sha256": "da74a3b013a014be96b52a5c48f012216ac0b21100e1f2ec8b5257a95b7dd1ca",
+      "bytes": 181018,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_f0cfdc47ff11_HQFPS_Item_300WM.png",
+      "sha256": "f19579cb79a1d223ffd1bb06627a546f442601cd432bb6d6adb483d8bdcf7902",
+      "bytes": 130329,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_8b842eecf430_HQFPS_Item_357M.png",
+      "sha256": "98f909203d525fc04634687dceaf57223fafe77d8972abcc9f59b0ccf61e8548",
+      "bytes": 106480,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_3a9b0da8d744_HQFPS_Item_45ACP.png",
+      "sha256": "540eaea62b02bbae356ac0c5e5343c8d33a9cd42ca93477e06614ef48c548871",
+      "bytes": 98191,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_1bc7b0162b28_HQFPS_Item_5.56x45mm.png",
+      "sha256": "05a1b7bc0fe852aa780efd077f4f509308ace91bc61b6dfa8a961e0e084dff18",
+      "bytes": 75191,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_17bddd09b4ba_HQFPS_Item_7.62x39mm.png",
+      "sha256": "9554def0d3dec9c631b05e0f5e7d3438411bdb6bc514221f86e2dd59cb9cd922",
+      "bytes": 99133,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9c08a1b2ed86_HQFPS_Item_7.62x51mm.png",
+      "sha256": "bcb306584fd6c7c7b9585d7f44dfd96e130a77faf3156e80a75458e06063bf9d",
+      "bytes": 128044,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_26a4175d169f_HQFPS_Item_Bolt.png",
+      "sha256": "46203ae1bffaba67dd90afba6c640676a752aeae753cdcf1cf633c22fd6c859d",
+      "bytes": 31901,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_f2e853b26f06_HQFPS_Item_Flare.png",
+      "sha256": "0ead20de3b27944698945e43dfcc46a38c7f51204291cd857614e83e84502d94",
+      "bytes": 137625,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_bcdce2d2ff42_HQFPS_Item_AKM.png",
+      "sha256": "e2a79eabd1989fcf14af91958a0e74bef31808ea8065a761efba7e765166b35f",
+      "bytes": 152374,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_6ad76282996e_HQFPS_Item_BaseballBat.png",
+      "sha256": "440450664e54ec59857efe14329c1336218a470e1eabb9e97cd514b8d22a6656",
+      "bytes": 125480,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_06b001512f98_HQFPS_Item_CombatKnife.png",
+      "sha256": "ad4f2502c3ee58ee0aba46b90ab291f651e74b1f4bf46c31e39f5e283ae1d911",
+      "bytes": 112920,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_cf73ab64b2e6_HQFPS_Item_Crossbow.png",
+      "sha256": "34cded07723e789b7a1fb610357bccbcd7e312fb05be9b8f9605ae4c2f2f80db",
+      "bytes": 195500,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_90d77ce1eac3_HQFPS_Item_DBShotgun.png",
+      "sha256": "a6a8a5a9c6b1f5070325f925975a3d87fc92e3d69d2445948ddbb838ce8b83b8",
+      "bytes": 189651,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_5250e16c5913_HQFPS_Item_F1.png",
+      "sha256": "f87af96ff92b278f0aa75017cad97e7129690216b47caeff2d0a99026bdb69a0",
+      "bytes": 180909,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_f6deaee97208_HQFPS_Item_FireAxe.png",
+      "sha256": "a71af267183606393c7da1f7d88477c1725db15feca52529e0921d586efeda59",
+      "bytes": 158782,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_2c114063a07e_HQFPS_Item_FlareGun.png",
+      "sha256": "7c443850f6815bf749dbc2d577c4d2111ba5bbe4ff1b497d41f6e1b7efe15574",
+      "bytes": 209941,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_dc9affc18589_HQFPS_Item_Flashlight.png",
+      "sha256": "67168061ecb596a92750842c75ac88549ee9628f089078de15847f7b8acd9159",
+      "bytes": 147301,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_e834e3b95ab1_HQFPS_Item_FragGrenade.png",
+      "sha256": "0bcc10d6503eeeaa82eca5b374ff758989cd2735c333c83df0768c1948fb2e4d",
+      "bytes": 168467,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_176178b91079_HQFPS_Item_HuntingRifle.png",
+      "sha256": "6b80e86855640b7d79f47e7ce86a55bbb25a298a1ecd0e628eb5036fce99b16e",
+      "bytes": 106613,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9b2335937305_HQFPS_Item_M1911.png",
+      "sha256": "22edb2581c99cc3c9a61e9c0a3b543cd1044be336a2227bb717a1b664c853fbd",
+      "bytes": 171414,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_51fee1940328_HQFPS_Item_M1A.png",
+      "sha256": "c70387265973810030d5aea9c9d12db2fa361497130e382afeafdeb401d91400",
+      "bytes": 127806,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_a19bf819eb6f_HQFPS_Item_MolotovCocktail.png",
+      "sha256": "4a1bbb9cf58d624e0ec700b1fc89cd310cbdfbb87e29c55fafdcae5458609fc7",
+      "bytes": 151259,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_61c6dfd144df_HQFPS_Item_MP5.png",
+      "sha256": "e8c202f923020b43564a172a5ac440fab9b06c2763fab4f3865fcaeec6fdb318",
+      "bytes": 172685,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9d409e57b04e_HQFPS_Item_R870.png",
+      "sha256": "771804492a40550cffe765383012b2055ffe22632b5d284c90204d6ed97b3ebb",
+      "bytes": 107953,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_34bd86601c1c_HQFPS_Item_Revolver.png",
+      "sha256": "3a4950f9ad049b7ce08ad75b59bd9ac598c877b464b2e67e067d259325850b0c",
+      "bytes": 172837,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_93134c31f8a6_HQFPS_Item_Syringe.png",
+      "sha256": "a9f86e3c66ded12a12e6e904297a02ed1c0919ea819604a1eb598b499c2db725",
+      "bytes": 69781,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_69b4c9befecb_HQFPS_Level_FiringRange.png",
+      "sha256": "a3402c8ff39eeb2d75352776cd80e95d552b9012e745e0b78626a6d624827157",
+      "bytes": 1015724,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9162e3e0fe50_Screenshot_2026-01-13_130732-removebg-preview.png",
+      "sha256": "5ec22c991a77be1abcc476b1db6686192b8e04f571babcd2331d124fa1d4188c",
+      "bytes": 26622,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_4be09a02a9c5_Screenshot_2026-01-13_130828-removebg-preview.png",
+      "sha256": "99591dfdfb17d0d5e90b041f9688a3d4ee07b30fae70a676d04d2614b2858c79",
+      "bytes": 22499,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_8e7c1eb1d615_Screenshot_2026-01-13_130919-removebg-preview.png",
+      "sha256": "562c8ad8ce89e9db40d6ab1ef751c0a781c1697132f652465f7e0030dd884f75",
+      "bytes": 42439,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_6f3fa3b150e8_Screenshot_2026-01-13_131008-removebg-preview.png",
+      "sha256": "5685e90e460a6add51704d9651072167bfe96c6a332af6de3277a539066827b0",
+      "bytes": 28515,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_5e88702cfc29_Screenshot_2026-01-13_131100-removebg-preview.png",
+      "sha256": "589f9057c3aae40ea3f380c50e227f834dd2fd1f8e55cfcdb31728f646bb3da3",
+      "bytes": 20087,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_e8fcd7f5679f_Screenshot_2026-01-13_131147-removebg-preview.png",
+      "sha256": "c7402861c85eab560cc495e502750f35ccd16baef5a2fa597f4deba248c4b3d4",
+      "bytes": 18263,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_2eda0fb051b6_Screenshot_2026-01-13_131233-removebg-preview.png",
+      "sha256": "246a7a337061f4c1cdcd854accef911e6e9ec2bf0d3aa0710570a60313cb2177",
+      "bytes": 36763,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_99b9aae121a0_STP_BuildMaterial_Cloth.png",
+      "sha256": "b08244f339ecb467deb6eeb17db9ba305b419dc3bd0515b9c308ec17fcb3df77",
+      "bytes": 27484,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_5bd8a858f9e2_STP_BuildMaterial_Feather.png",
+      "sha256": "b51493939baea280a6d8a8cb1539a18660cc6f2bc9f07c9a1ef06928f3c99610",
+      "bytes": 40982,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9336e26e43d5_STP_BuildMaterial_Leather.png",
+      "sha256": "9e3f767ab00736e0787239abfe4225387564973d6dd03d71f44d9ceeab178ce9",
+      "bytes": 32096,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_1ec56159eee6_STP_BuildMaterial_Log.png",
+      "sha256": "abfee33e5fe948e999e5b1232afc4f4e0c7436d6c5fb5a1cc803d3838b5aa521",
+      "bytes": 39019,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_12351bea3506_STP_BuildMaterial_MetalScrap.png",
+      "sha256": "badf2322c962ea4634249957e3d5cb45d17ace634a0720ea456b70d3798fc28a",
+      "bytes": 52423,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9b523a654f91_STP_BuildMaterial_Rope.png",
+      "sha256": "1fb47e6ca40422e3a367cd69f08f27cc99015a7889bdbf7c5e44aac6ed1ab734",
+      "bytes": 45513,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_b3534b01cb4c_STP_BuildMaterial_Stick.png",
+      "sha256": "36056eda161197a0de036194c7ef7dc088e35121f4df04fe4b59ec1cf3489928",
+      "bytes": 25631,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_30d8bd6de25d_STP_BuildMaterial_Stone.png",
+      "sha256": "58fc8f1009155bb38d524556d424b6e3418c510ac18a63001240a3f15de1d306",
+      "bytes": 49977,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_d59bace4e619_STP_BuildMaterial_StoneShard.png",
+      "sha256": "32d30ecba003e9f6b7a343c1510d417ddf14befffe011f6d93c7763fa5dd9514",
+      "bytes": 23095,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_0dbc71c0bc28_STP_BuildingPiece_Anvil.png",
+      "sha256": "caeb0c432622b21b3ed2a58e5b19a87ccdc053bf975e49ef570df92e0a37963c",
+      "bytes": 56559,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_e35122b0c251_STP_BuildingPiece_Campfire.png",
+      "sha256": "c9cac2097306aa0d2fef5e98e2228f0395a4253f9c7ebc7047fc7dc2eaa1e15c",
+      "bytes": 107278,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_e63562528254_STP_BuildingPiece_LogCabin.png",
+      "sha256": "d64bb970611fef362b0008731e70d1e89db72a5beeead8fb974d7d441043fb4b",
+      "bytes": 76825,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_57889c4762ef_STP_BuildingPiece_MetalCrate.png",
+      "sha256": "ce3e758409e211a3d3a6518048efdecf24996325a0a880b59de2b3d2c52eff83",
+      "bytes": 74410,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_27cee15c12cf_STP_BuildingPiece_SleepingBag.png",
+      "sha256": "3d388849482d54983271a15a8ba61778901887bba19e3c735dbc8f496b1f2a78",
+      "bytes": 67746,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_cd1bfb77713a_STP_BuildingPiece_StandingTorch.png",
+      "sha256": "5ef251c64b0363b20ce928fb4a156ca11b7a9d507a10190fb857f6c1c0bc47b2",
+      "bytes": 23723,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_c9bc0b50c677_STP_BuildingPiece_StoneCabin.png",
+      "sha256": "a1298483a8cdbc2b4b2a91aa3dfebddf635bb3e41fd56bdbcfbbdf98b804cfd8",
+      "bytes": 61887,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_5cb6d04958cd_STP_BuildingPiece_StorageCrate.png",
+      "sha256": "d8b80476dfb80246697f0755075912a4bce717b3fc53a7a541496f0300e7c90e",
+      "bytes": 76437,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_fcddfc33aa48_STP_BuildingPiece_Workbench.png",
+      "sha256": "4df998c8b223cb645804fe0c6c4deb809d59506566d8b3e89c2d0fb367a111d1",
+      "bytes": 55527,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_49afd32e396d_STP_Crafting.png",
+      "sha256": "f9d7ff84642a35a65339c8301b9dd9eedaf0e29f95f62426902517c7460bb7e8",
+      "bytes": 15185,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_589b22370412_STP_ItemCategory_Equipment.png",
+      "sha256": "86953cb2abe5e5aab53cf1182e3fdfdf3846aea73acb90e7e833bbb82ee50416",
+      "bytes": 8842,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_d39e91819682_STP_ItemCategory_Food.png",
+      "sha256": "feb5d64857b4db1fda09b0466984763cea51748fef7105df63c462453a4c2a50",
+      "bytes": 16079,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_2d4151ff5f26_STP_ItemCategory_Resources.png",
+      "sha256": "8ca003b4e92204281ada5b7979d70f3562d8ba7bc72ae67c84c88ce1a97ce673",
+      "bytes": 30904,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_f2b060986401_STP_Item_30-30_Bullet.png",
+      "sha256": "d894ea3b60c76ca4fa064bbea5b036f1f893c368931430dc58ba3e664e3803c5",
+      "bytes": 35648,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_91dd03aa40c3_STP_Item_Antibiotics.png",
+      "sha256": "0933843539429953cb1eef80ceb09e95b3069224db3464b7846c928f0138cf96",
+      "bytes": 51622,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_5766335f4197_STP_Item_Apple.png",
+      "sha256": "0aba7e382027fdd9712af6a8836d752eb9c6f86863532cfac329360a93ed44fd",
+      "bytes": 65701,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_e08d3d0357e0_STP_Item_BoneClub.png",
+      "sha256": "ac10f1669c73653f288000c9d25ebd3a975265c87aa240cc84af4aa832b68f0f",
+      "bytes": 118511,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_0ed2ecc0385e_STP_Item_Cloth.png",
+      "sha256": "28e918946bae8f2d23064ff2d6dcce5780efc5976e6e2e67063b7bdd7a64f4ad",
+      "bytes": 36779,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_6491cb1442e4_STP_Item_Compass.png",
+      "sha256": "8698a8005fdc5d93a4310587e53c14ebc1594c845cbb16f7abdfbc8e8ad731db",
+      "bytes": 247606,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_abb23da0e2a6_STP_Item_CookedMeat.png",
+      "sha256": "815b09af29c23dab104442e89530c3d6d244975fb2c3da8f490861b9dde608d3",
+      "bytes": 81088,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_c4b514a50b45_STP_Item_DuctTape.png",
+      "sha256": "78df7a98394bdb0be405bd067479dc19d96f829180b89ce16295f5293b9dee58",
+      "bytes": 55493,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_75b363684bf3_STP_Item_EnergyBar.png",
+      "sha256": "2e9fe7ff695ffd686cf7a5f85326655eb63394b29f9f7a057de404fb2c7f045a",
+      "bytes": 43443,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_3d44d2e8493d_STP_Item_Feather.png",
+      "sha256": "d1039fe5aa35196b76bf873d2725b683413c1d19dd9694f9d597f1c18ab1e289",
+      "bytes": 36275,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_1ad628a23f59_STP_Item_HuntingAxe.png",
+      "sha256": "559c41a2f4c5d5b4ffd10ac1dbc8323edabb171e19c4f7f836a9d00f625c1a95",
+      "bytes": 103074,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_e5f600351861_STP_Item_HuntingKnife.png",
+      "sha256": "f3488dd510ac7907f6538b3e18a29845f9037d144396aa74782e7d6da236be32",
+      "bytes": 96062,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_a81128c0b380_STP_Item_Jeans.png",
+      "sha256": "bd89ff65d98beaa824a85f6eb39897ed815487215cf69decf2652949a152b280",
+      "bytes": 163283,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_4e56cd13432c_STP_Item_LargeFoodCan.png",
+      "sha256": "e87f3d70aa367d4d1a28ad1746889d6d89df0bc699896601f693ed5f97d26a07",
+      "bytes": 62730,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_331c6565c8b4_STP_Item_Leather.png",
+      "sha256": "fe6be7f016e505213e3805947108e55054a1c2b28f2ecd7f5945239a6d18b99c",
+      "bytes": 79642,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_f1b0ecf7c419_STP_Item_Marlin336.png",
+      "sha256": "30ebf339c1fe38bfd6ab4d33e054e7fb87808ee547479ea4655bf8c95c26b6d2",
+      "bytes": 129069,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_72a488f47332_STP_Item_MedicinalCorn.png",
+      "sha256": "9236a4e6a611f421095b48be6151712efb753ffef09f198213336d0bd5fec431",
+      "bytes": 51279,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_928f7c5baf46_STP_Item_MetalArrow.png",
+      "sha256": "ceb8cfbbf528c18706919d890c7f788b103580ede70454468376e574cef3104d",
+      "bytes": 49633,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_18c3c2604d52_STP_Item_MetalShard.png",
+      "sha256": "1b49c03f173b072f6a7190a3478d3560bb2eee4f92b725e5c46278733d8cb74c",
+      "bytes": 64227,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_6a73575a7de8_STP_Item_RawMeat.png",
+      "sha256": "c996ce89ea9a3d31fcca98b2f1c2cd8d95587fb11c58cc1acd3beb7df0fd09b8",
+      "bytes": 79039,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9ae390bdf243_STP_Item_Rope.png",
+      "sha256": "01abf7afd1eb6549750fcbbb9e4cffc7c540999972cb0ea8a3db0fb8f6ce4451",
+      "bytes": 63246,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_1b226ca5d8e6_STP_Item_ShortJeans.png",
+      "sha256": "9936e4b1ce471c2ccd34d4fa247013636077b5d1e9a30b44e73433b4dfe24262",
+      "bytes": 222358,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_a4de2afe0c03_STP_Item_SmallFoodCan.png",
+      "sha256": "db099e08600e9f5fcf081f52e034c06059025282c378080b882c317e268f3ac2",
+      "bytes": 52375,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9556c8b20592_STP_Item_SteelPickaxe.png",
+      "sha256": "e0d6af4c968c1ef4d05914e121eaaf281d700659277c4a7618a2a656ab637158",
+      "bytes": 37366,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_ed832180aa49_STP_Item_Stick.png",
+      "sha256": "2b618e1f546e3d87454e9997084713d0a17eb4bc678516073086d8b92f9319e2",
+      "bytes": 21490,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_2cd0a1a4b6e7_STP_Item_StoneArrow.png",
+      "sha256": "3effc576b21855e66de283108d5a8439e6e00432644309ec8b6d81a6926910e4",
+      "bytes": 49984,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_30b6bf2cb684_STP_Item_StoneShard.png",
+      "sha256": "65253778818ffcd31ed7f40c321f1e047702273ff4c1544c33514a70b407f6bf",
+      "bytes": 60883,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_a32c6dbcaef0_STP_Item_StoneSpear.png",
+      "sha256": "31bbca468f94e771efc4ef8e93c943da154cf722704292da7523f85686759ebb",
+      "bytes": 95914,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_f24d61ecf9aa_STP_Item_WaterBottle.png",
+      "sha256": "c5af24857f666fab05537a2a3847d39e0e9e965eee854a210afd8ce0ec297eeb",
+      "bytes": 41482,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_34a195d354c3_STP_Item_WoodenArrow.png",
+      "sha256": "7d9ca3bfc88f814736eb8fcf547c357ec3201a5e83efa007f28643676b6b0fc5",
+      "bytes": 42830,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_3092dd0486a0_STP_Item_WoodenBow.png",
+      "sha256": "957519511e5e29c39ba5dbfd485f4692610c4c16e9d3d330b599a5f096e4c248",
+      "bytes": 75081,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_a645aa522a14_STP_Item_WoodenSpear.png",
+      "sha256": "f3cbfa1ddf0c9b3a8e7e0f75a3e95116f0b8cff707dcd45341b5c18bac2ff613",
+      "bytes": 154289,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9f3ff7e0536c_STP_Item_WoodenTorch.png",
+      "sha256": "4a7a5c14cfef4d1cf59ca120f4425e8a410fea25a4f1b53b195aa52ab27dd2f2",
+      "bytes": 152411,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_521a2bc5db43_STP_LevelBackground_Forest.png",
+      "sha256": "be658e448e0d0eb7405c48884a4f0dc9325ed3ecba93b231e750388124485877",
+      "bytes": 1190009,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_ecde5bbac8d8_STP_LevelBackground_Prototype.png",
+      "sha256": "dba68740b3f1f60eb0dbae1c34142af4d15286459fe82b86a7b9d2f808e185c7",
+      "bytes": 315269,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_dfde17ed419b_STP_LevelBackground_Showcase.png",
+      "sha256": "d39f219c1adc0a692354f6f239db175c52bcebf2c90e8f63882adb2a7b48b0c7",
+      "bytes": 487461,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_ebd61f90a7c7_STP_LevelThumbnail_Forest.png",
+      "sha256": "0d5d91c48dd9d2c7f57571ee7baff68d910db6a8331dfc65b19e568b806a58c4",
+      "bytes": 874165,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_23290849e838_STP_LevelThumbnail_Prototype.png",
+      "sha256": "f21f83d2317ee5b5cc902970bf6ba6e4009bc24f788c45d2daa39dd46a16ff5d",
+      "bytes": 795072,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_d2f168017af5_STP_LevelThumbnail_Showcase.png",
+      "sha256": "12ae8fe69d86a5eb6832b483d951c51c92ed090b2c01a239c2ff2ffd97301b2e",
+      "bytes": 564465,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_572165eacd08_SV13_Level_BG_Player_Cabin.png",
+      "sha256": "cf1b8706d6cf409f5dcf78ff5a938309d6e4060c7b91d0275c398ae3705daf5b",
+      "bytes": 596805,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_1cd81b69f8b6_SV13_Level_BG_The_Grand_Exchange.png",
+      "sha256": "b9987854b22c3bfe3e379d966b47c6443c7186e02de97c4067899c4786324a64",
+      "bytes": 587998,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_fd20c9e4fecb_SV13_Level_Thumbnail_Player_Cabin.png",
+      "sha256": "64f071a6fbdb69669267e88f68d19695a0e08bcf8c11045dcb07a4c616da50d3",
+      "bytes": 345997,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_512b1273b1b7_SV13_Level_Thumbnail_The_Grand_Exchange.png",
+      "sha256": "3af25b00e4a155254770632ed9f9738d4c674e20e61447c13b8629ffd2d94dac",
+      "bytes": 571132,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_5f812c93cfdf_trlp1.png",
+      "sha256": "59205cd304887de97eefca3b2631fb36caa46187669bbabe36a729af13d0df0d",
+      "bytes": 916606,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_6c9b503a469c_trlp2.png",
+      "sha256": "afad71552bd3c68246f9152585aa705a9467db08c228b813a0b0e3219c67826c",
+      "bytes": 1160480,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_27a9c6c03f17_The_City.png",
+      "sha256": "1e63d965cf18f40df3e48f381759159a3ae12a0f96766a743779b192b3ba4c47",
+      "bytes": 615926,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_13b77ae62118_SEP_MineC4.png",
+      "sha256": "2b546ee7ec04a7196b7c796cd58271bd91f6cb0430b3e0f438f7f86b50d72ce0",
+      "bytes": 68708,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_54b8aaa7a97e_9X19_Parabellum_sprite.png",
+      "sha256": "e355fe96e433ba6c7f414f3499af977cb7326b875db755a77a4bf1630be9e280",
+      "bytes": 19955,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9b08341b5116_Acid-Small_Container_Bottle_sprite.png",
+      "sha256": "ee4ee41b011943ea344753fc3f194745b2967ccc10ace60637bff0ee913e94a9",
+      "bytes": 20193,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_0812ed3048ab_Adhesive_General_sprite.png",
+      "sha256": "ae36c162e519fe1f0a45e4517cf14168cdfb156fa569705cc2441eb88cf9d160",
+      "bytes": 16549,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_ff919a51fb84_Alarm_Clock_sprite.png",
+      "sha256": "25fef8302a03da623efa3262f9ade1e4f9f4344663e28d47a6e7584eadfd1614",
+      "bytes": 16224,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_bef4c69f9425_Antifreeze_Old_Variant_sprite.png",
+      "sha256": "1b0e69969bb9438d9cf96a172d08513b610cd1f3b2b0231c9468275bdd932a50",
+      "bytes": 29045,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_af7a7f740363_Barn_sprite.png",
+      "sha256": "5ae68c8d28e70b8aa5d690a86587fc230299d60c655089ef168b938aacc3149f",
+      "bytes": 18139,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_52178e320da1_Bone-Small_Cardboard_Container_sprite.png",
+      "sha256": "2922c3f918b9124f6d160bf436894c6e1ac05f16492153f1d2fe0d8a5faab81a",
+      "bytes": 24399,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_739a07c24cb0_Can-Dented_sprite.png",
+      "sha256": "4371bff68ea971a83c4c40d5ad3ffaf3c1c2ffb4fe61ae88d53aade9671870cf",
+      "bytes": 32651,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_cddee8b261ce_Coolant_Old_sprite.png",
+      "sha256": "3f860cb5bf6bed223cc28bf3c26c48668d442596c9b866df61e6b66bcf752c02",
+      "bytes": 25021,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_d04309f8c21f_Duct_Tape_sprite.png",
+      "sha256": "61da983ef42d625fdc43342dc9ba8ccb56682b78e1e9995a125fabec36ebae6a",
+      "bytes": 17074,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_b046de8ca669_Fertilizer_Bag_New_sprite.png",
+      "sha256": "e73d5e8bca2a698e7a4f271dfa66132b457effc96408956388a30b610322f0ef",
+      "bytes": 15558,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_0b8031eff123_Fuel_Cell_sprite.png",
+      "sha256": "aea23490f11f158b39a6f378a2ed0e51852d7c7a41e61335a8cb0b840fcd7881",
+      "bytes": 29599,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_a5d32baacc86_Gas_Can_2_sprite.png",
+      "sha256": "a18d57d5c58d3158a7b941210427ac217502959f16c42b22c0d983cbbf92100d",
+      "bytes": 17728,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_e973576edccd_Gears-Small_Cardboard_Container_sprite.png",
+      "sha256": "3204c949683ab2686343ed048f967270f2d72a91fe79b99d9ebbf3c4d16d56ea",
+      "bytes": 29287,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_5dabeb58e951_Glass_Cutter_sprite.png",
+      "sha256": "9bebc3365c34254ce4f66dd4e778bddf77498ad326bf35d6c7507ce150d3b2eb",
+      "bytes": 9124,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_197db3ac9ca5_GreenHouse_sprite.png",
+      "sha256": "44b42ffec974346581a0abc558bfbdbcc22d448a096f9b22dd418b506503e1ea",
+      "bytes": 35443,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_b5937869c3ed_GunPowder_1__sprite.png",
+      "sha256": "a028d5fb01c57b282eb36b14aefe72080eddff5b30f4c32cf3408aad7f7d5e20",
+      "bytes": 17458,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_027747cffc18_Hammer_sprite.png",
+      "sha256": "18bdceb3950315cbda0652795d5788a9b416bdc6925dd8b5a7c390333634854b",
+      "bytes": 9316,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_3454029a9446_Kitchen_Fork_sprite.png",
+      "sha256": "a1228a11b1a0aed1066bb114166ab98a7194d69713629712211375f863049b3b",
+      "bytes": 6879,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_195ac1612830_Kitchen_Knife_sprite.png",
+      "sha256": "85fac672639eb33fab64c28c7b846071935da066e2b40c35d5e85c2c18f31f11",
+      "bytes": 7108,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_fc748053e3a6_Kitchen_Spoon_sprite.png",
+      "sha256": "7e7a4c3f1ccc500a418bf0b767600f1fb29a0d61186ba1905bd250472b1e8f8e",
+      "bytes": 6799,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9e70a54d3d8a_Kitchen_TV_Dinner_sprite.png",
+      "sha256": "3ddfd2601995503a8d43a318a655f990bed3f473ccc3413c2dce0cbc01a3331e",
+      "bytes": 16028,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_b38063334683_LOCKPICKS_1_sprite.png",
+      "sha256": "a9eac4e26f84bb82b51a757f09e9edc5819a4fe12eaceb2d960784869d612ac9",
+      "bytes": 8745,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_ebb2f276840a_MedicalCabin_sprite.png",
+      "sha256": "b005a3d4eb1973c25d2c91103a3624e603e02bbb9343c9e95b81be189c61509d",
+      "bytes": 26669,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_b50afc1d857f_Metal_Aluminum_Foil_sprite.png",
+      "sha256": "25227ed87fb9f433b9aa3287d0bd21cb5c5c7bf82b574387e2c58b4318cf58b4",
+      "bytes": 18103,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_be81e33f55fe_Metal_Copper_sprite.png",
+      "sha256": "4be7fa52bb05fc90517ffc6ee86891943a68d4130a38567cb7027c68cc3b17d0",
+      "bytes": 19807,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_faecd7f2b942_Metal_Gold_sprite.png",
+      "sha256": "35091a8d264497f2bcd62c8fc4f58def4177e25bd7dfb6b6f5c7ba1ffbb2cc13",
+      "bytes": 18054,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_227a024ca10e_Metal_Iron_sprite.png",
+      "sha256": "bed0208e1086699984fca7c22d203b0e5ac4708d39eceb81c758603676347fe1",
+      "bytes": 5187,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_bf160cb2676a_Metal_Steel_sprite.png",
+      "sha256": "c3a07f5d0de3a15d749683ac96b8034fa603544456325175259a1f86d03a7d10",
+      "bytes": 15966,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_2dce81d68656_nails_sprite.png",
+      "sha256": "ca9dfc041583a7e75439f91958aeea1d1335b0f1f62a5fd3a8ee72815d8de6e9",
+      "bytes": 8089,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_67aa43e2c229_OfficeDrawerKey_sprite.png",
+      "sha256": "580dd7f308f175ab0857280f1776b040df0d57691bf7cc3530e7d758b66dcee3",
+      "bytes": 6533,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_c73df0c5e7f9_Oil-Small_Container_Bottle_sprite.png",
+      "sha256": "7f7881cf20320c72e21f5a15baeb2c2c28e1b93e7f73b39329698249fcd3455b",
+      "bytes": 21611,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_e8300bf03518_Orange_Soda_sprite.png",
+      "sha256": "5f6be6b022a3fffe1d0b853060d4f8b8edb62e5a9aa7fe1ee52fd8eee0ee9f9c",
+      "bytes": 23641,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_00cc63dc0098_PickUp_JerryCan_sprite.png",
+      "sha256": "c394d246df93bda829406db40ac88b1a7a234f9a17d7b7e7c45e7f238ccc58f3",
+      "bytes": 20632,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_dbe10b61c0ab_Pickup_LINX500URF_sprite.png",
+      "sha256": "d3565155accc5846cf6d9118f1e4ccda5a348a030aa840dd5e76eecdd10d0e17",
+      "bytes": 16820,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_098f767b9b1c_Pickup_ScoutAID48_sprite.png",
+      "sha256": "6a6736378027157cf9fb96f30f2727f2549038ed5e754a83d074b527d45106ad",
+      "bytes": 13008,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9ac8ba89394c_Pickup_ULULA4KLCTI_sprite.png",
+      "sha256": "e8848c91e708663916dce087c2b2ab785596aac195248775c2ac26a52be96f7c",
+      "bytes": 16488,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_bb5a5595d0d4_RelaySwitch_sprite.png",
+      "sha256": "999ce275fdb92ece071bccf40ed5d27dac60a25b4451e19680cc2ac512242231",
+      "bytes": 11906,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_46ae141e6d33_S-Mine_sprite.png",
+      "sha256": "730cd1a4e5643de74a5acc55d7c9da14d14a283db695659e681402fb9a925d3d",
+      "bytes": 19807,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_1147c02c6d78_SAF__Carbine_sprite.png",
+      "sha256": "beba222b56dec453356f521edc7ef559b1a744f68eee60d5aeefee88b39e9d68",
+      "bytes": 8406,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_5521dd5ab1a8_SAFMagazine_sprite.png",
+      "sha256": "218c1ffc33c1c81e11603cd54cca53259374559529e52480a0423bf714cf66ad",
+      "bytes": 8012,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_a83ff16b35e7_SCREWDRIVER_1_sprite.png",
+      "sha256": "e55c28979ae7912470b23479cc5c2f5c01fc07fb467526aee4719e9a9899ce4c",
+      "bytes": 7051,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_aa1093466e3e_Screws-Small_Cardboard_Container_sprite.png",
+      "sha256": "ef8fa638a31444c2560061a55e221048a06fdb21d144a0b689781b0d0e6f8d19",
+      "bytes": 23438,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_ba727a2ec5ac_Scrubbo_New_sprite.png",
+      "sha256": "cec20923e69023c4a5e0736b65a725f99ba6ec52909a070ce0380ede25b89812",
+      "bytes": 25654,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_0de1a7f9c90f_ShootingRange_sprite.png",
+      "sha256": "cc789b1d433753e7ee984cfd98bfa8416899bbde75c89d30925816cd8f096fd3",
+      "bytes": 8577,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_3abeb2b82992_Soda_03_sprite.png",
+      "sha256": "c2d32c5f427268bafb9d944c4e9414a11553bda3a117a7c08dc9183f1839a2ab",
+      "bytes": 24312,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_4a661f8c7448_Springs-Small_Cardboard_Container_sprite.png",
+      "sha256": "027fb7845a4e45b0dda853dcc2b8975172104695a0a87d103f81b373e8282337",
+      "bytes": 28696,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_0efa3765be60_STP_Pickup_Backpack1_sprite.png",
+      "sha256": "f970182e896b8fac057ccf7f2cea702a2e9c98658a00142fe4abf86033ce0833",
+      "bytes": 20829,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_2927faa09b1a_STP_Pickup_Backpack2_sprite.png",
+      "sha256": "2d858f90c347d4610434a9e39db4edf87e9d9b095fed0d2bc9ebe7e04a7f760f",
+      "bytes": 21202,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_cd8f317d1103_STP_Pickup_Backpack3_sprite.png",
+      "sha256": "0a1bf7f6736dfec7b14359448f8c2ce91722f1f6532d462b29d80f539bf8521d",
+      "bytes": 22266,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_48db7b7ddc67_STP_Pickup_Backpack4_sprite.png",
+      "sha256": "45e7d2ebb7151ba9f503cbcd6ea0ba879c285dcc980e96a411b5704532d62260",
+      "bytes": 21530,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_cc9431954fa8_STP_Pickup_Balaclava_sprite.png",
+      "sha256": "6a32b89a6489977456120dda5b4a06c5bd9cd6963fcadbc4376bb6b1e4925714",
+      "bytes": 16641,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_0880c9d799fb_STP_Pickup_Balaclava2_sprite.png",
+      "sha256": "c62513ad699c433c5d15d531a3a8dc1949f102f5375d9d286a573d1736875f59",
+      "bytes": 17269,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_3b3264498f8c_STP_Pickup_Balaclava3_sprite.png",
+      "sha256": "5513b979e4a3f66107ca17a0b948afa7fd2c0adbe27e45b21fd83c16cf6f515d",
+      "bytes": 18835,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_68d990f9672e_STP_Pickup_Boots_sprite.png",
+      "sha256": "64cdd8fffb87db600185f6f8993cc92159ca747063d62f41f83fb09c9a558779",
+      "bytes": 24585,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_16c2ab8b287a_STP_Pickup_Boots2_sprite.png",
+      "sha256": "32d8ce3f407efdde1fb5f5c6833f758cb28dc45ccb1f5194fb9e0f0b3f919ed2",
+      "bytes": 24414,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_31701d84335a_STP_Pickup_Boots3_sprite.png",
+      "sha256": "a13a5f2c24792be8f3490f0bb534069a42bfbb3359bfb5c82982e70796d93ec8",
+      "bytes": 26147,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_f9f7bee92230_STP_Pickup_Boots4_sprite.png",
+      "sha256": "6a176811e5fa213e940467dce1900585bd2760e7178f3b9215bb9d7b9b26dba1",
+      "bytes": 25014,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_11e9654f79bd_STP_Pickup_Gloves_sprite.png",
+      "sha256": "83774eeb6709a9fd61b42bee8eb4b68255089b1f6397c2605f9e13ad4788a07b",
+      "bytes": 6622,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_2bb0ae63438d_STP_Pickup_Gloves2_sprite.png",
+      "sha256": "d376dcc67bef18a0261d8d98652753207e6689f70adcecca18ea03f2ee0dd81a",
+      "bytes": 6866,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9ba79426cd82_STP_Pickup_Gloves3_sprite.png",
+      "sha256": "3a048045ad34c157f01aa49d28090d880dcf95c259e62abdc9794758823fc869",
+      "bytes": 6599,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_c89b73aeb574_STP_Pickup_Gloves4_sprite.png",
+      "sha256": "f38c2995ed24faf4b6df417e794ff2cd8d496a549fb818da5f6b7e5e1b981d40",
+      "bytes": 6877,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_fd49ce61c254_STP_Pickup_Jacket_sprite.png",
+      "sha256": "21c5a323d96b1c57e90695d316525bf9ddf573b17176bcd71b318528b80fd41a",
+      "bytes": 13448,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_bbd5117ef15b_STP_Pickup_Jacket2_sprite.png",
+      "sha256": "08ab2122fbfd184f539c75e45ac4cbec7e1f95c4b86098fe86510ea8b9594f40",
+      "bytes": 13669,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_216dd18edd2f_STP_Pickup_Jacket3_sprite.png",
+      "sha256": "e214de81c95e60b06bb5583a036c7e37e3e1ad94861d75f8c9d096b4acd6fa90",
+      "bytes": 13159,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_8bdc3c922e9d_STP_Pickup_Jacket4_sprite.png",
+      "sha256": "7da652acc9f0546c8be416115efbfd23ffe3bf0e9e0a663cf686a9a24f604bc8",
+      "bytes": 13856,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_3ddbf9e16392_STP_Pickup_Jacket5_sprite.png",
+      "sha256": "6c44fa705ba75372cf658a1e71b87038698acb037fdea64df3073ca868b01b80",
+      "bytes": 13584,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_40d0ec9dfc31_STP_Pickup_Jacket6_sprite.png",
+      "sha256": "725ad868551f17db2f9e7ba3772ea9aa3b6f87f774daff242a861282634f0145",
+      "bytes": 14416,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_3851a95787d6_STP_Pickup_Jacket7_sprite.png",
+      "sha256": "a473269cb29dc0278eb769445307ed91150396765336186d970ddb1bc7a115dd",
+      "bytes": 13843,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9dd367a9580e_STP_Pickup_Jacket8_sprite.png",
+      "sha256": "d5c87a949e1b8dc2eb8dfd140671d507ef6d7a68b76cf42df20094074f42eea8",
+      "bytes": 14927,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_bf8cddee3282_STP_Pickup_Jacket9_sprite.png",
+      "sha256": "b99ce10091c807ffbe7b3d718e4c7aad2ca33d9bafccb8f539e7ac10c83e155d",
+      "bytes": 14739,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_eb3319946ff9_STP_Pickup_MilitaryHat_sprite.png",
+      "sha256": "03af2400b5e477ee93c1f08ecb8f33159d46d23ad185c385f2b6fe30d8d895cb",
+      "bytes": 20503,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_6d784d0747b8_STP_Pickup_MilitaryHat2_sprite.png",
+      "sha256": "f7f60d37f78461e41fea51157dd43af12d08309b26adcd5cfef6e82dc3e5d5b0",
+      "bytes": 21728,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_556840b7bb71_STP_Pickup_MilitaryHat3_sprite.png",
+      "sha256": "8f69e1a0c5953655a22b0bc5104a350c8da34c15f97be1f943cabb379fe5f677",
+      "bytes": 22326,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_15bcb85c26be_STP_Pickup_MilitaryPants2_sprite.png",
+      "sha256": "a48e987d0713b798119c4b8ab13164a467c9c728bb44760701f106f284039903",
+      "bytes": 13516,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_28b1657242bb_STP_Pickup_MilitaryPants3_sprite.png",
+      "sha256": "c1daf15f5fdee1416ea68ee96cd4d58a5642852ea975e1f0f572b3ec212e08a0",
+      "bytes": 13107,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_6091db86b15b_STP_Pickup_MilitaryPantsDesert_sprite.png",
+      "sha256": "3198f33b46401242165e394d84d14805012444091c59af49076f705755f95b62",
+      "bytes": 13982,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_006d8fad2521_STP_Pickup_MilitaryPantsDesert2_sprite.png",
+      "sha256": "f54d089487675e0e4c242b5dcf6ca012182802a4a754fd2428241174a3bca5c1",
+      "bytes": 14222,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_9538bf9833e6_STP_Pickup_MilitaryPantsWinter_sprite.png",
+      "sha256": "ab0907fbc1df516c1b94bf8073daa6fa4cf6997de09e4b71f666eca2e947e9b1",
+      "bytes": 14484,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_0779725384b6_STP_Pickup_MilitaryPantsWinter2_sprite.png",
+      "sha256": "da808a1c879d561af50ebab927dfc47b4eb7f89f5c00d2550dbb9d0a714895e1",
+      "bytes": 14422,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_917e6f68fb82_STP_Pickup_MilitaryPantsWoodland_sprite.png",
+      "sha256": "8d828dcaddbc846071c9e0114f5b3cadb0d37ef00f3514602e8d53727cb0352b",
+      "bytes": 12646,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_78de9cc1b782_STP_Pickup_MilitaryPantsWoodland2_sprite.png",
+      "sha256": "451d616e706d9102ddae7fd0902f34a9a6b69de52db19e1a0a1836afbc1b654e",
+      "bytes": 12602,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_5cc1ccdefbe8_STP_Pickup_Neckerchief_sprite.png",
+      "sha256": "c7582e2180c44d042b35f6f25992e7ada409aeb02f22711408a2072ebc334a1b",
+      "bytes": 15706,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_1df27e3153dc_STP_Pickup_Neckerchief2_sprite.png",
+      "sha256": "35c3d5f0f84492bee9f94e46681bdbb03fcbb290bd8930cc3f24f70bb2714bb3",
+      "bytes": 17201,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_3e8b2aa742fc_STP_Pickup_Neckerchief3_sprite.png",
+      "sha256": "be18799dcec2cc77f2419c5fcdf65b9d45a21ce4b75ce3c98cf978a5b90460b9",
+      "bytes": 16530,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_0757312a006f_STP_Pickup_Neckerchief4_sprite.png",
+      "sha256": "202f55ce6503885b692dafb15a50d39ddc33432b1a939c48809057b5d442ffd8",
+      "bytes": 16365,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_12ec2ad7edfb_STP_Pickup_Neckerchief5_sprite.png",
+      "sha256": "30f01933d8c1d889a6d4dd3981bde06939a2639871e9072aa981cccb86306afd",
+      "bytes": 17388,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_e15b7ad2630a_STP_Pickup_Red_T-Shirt_sprite.png",
+      "sha256": "05a8612c50de06bcfdd570fafdba84c5c9a523715b756b5e45855db9d8584921",
+      "bytes": 13240,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_b203f0eb7236_STP_Pickup_ShirtButton_sprite.png",
+      "sha256": "47c1484ea293cd3700b79f320e530c2b466ffeb33aeaefb84c93124b2d65bef0",
+      "bytes": 14342,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_6e131f37007b_STP_Pickup_Sweater_sprite.png",
+      "sha256": "fe6859c143cf0b46a42d2a24ac610cf116335cecc18f00b9c4d4e891ba2d44c6",
+      "bytes": 11947,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_893163564a27_STP_Pickup_Sweater2_sprite.png",
+      "sha256": "a020e4afbffae52f9c5c3485998d4e5dc2bd92c60f1195a41cd05f817f88d49b",
+      "bytes": 11628,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_1537d1188f62_STP_Pickup_Sweater3_sprite.png",
+      "sha256": "1692b0b1072312ccf89006682c12cd2e7a4cd45522f4b68645c4521b5ff2ceeb",
+      "bytes": 12102,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_27ca0e9f8a27_STP_Pickup_Sweater4_sprite.png",
+      "sha256": "e07652d6076e769ef80147e6f2ef25b4ac5249ea0e4bd8aeea0bccafbc18e404",
+      "bytes": 12503,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_5565b895a0b2_STP_Pickup_SweaterWinter_sprite.png",
+      "sha256": "0eea605d5e8494e0ff2ae0b22693800fbcab903cc1c433cd16595d6398fac2c6",
+      "bytes": 13954,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_3bda9013a177_STP_Pickup_SweaterWoodland_sprite.png",
+      "sha256": "ff33b6ee8a6cc0813324a00f64c890d68c2266c8cce8603f3f18ab9eb8e9d149",
+      "bytes": 12532,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_f1f77f7f415b_STP_Pickup_T-Shirt1_sprite.png",
+      "sha256": "4643d62cc67beaaa79d15e5255d1d840329db62b5cc3332dedf920adc8898934",
+      "bytes": 13341,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_a33dd95bdc2b_STP_Pickup_T-Shirt2_sprite.png",
+      "sha256": "9a2fc18afbd04c99ab9722f60780b4c32a40cf54d531f37d0af501b20e45644a",
+      "bytes": 12871,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_4e1b4e043f29_STP_Pickup_T-Shirt3_sprite.png",
+      "sha256": "3822b0238bef110f92af6f84b4763d21a452be642e85ea430c9f3349971c9216",
+      "bytes": 13164,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_ba1abd2c3ebe_STP_Pickup_T-Shirt4_sprite.png",
+      "sha256": "ace58d95348571860a585ea16408a11ed2130b763c305cfd6d8ee07cdd97baf2",
+      "bytes": 13470,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_3a96fce72a98_STP_Pickup_T-Shirt5_sprite.png",
+      "sha256": "b47c8cb02a842d6b90697ceedbce32c3e0cef36d6c421ad53bae866be5043ad2",
+      "bytes": 15239,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_6470c0942825_STP_Pickup_T-ShirtWoodland_sprite.png",
+      "sha256": "0d916ba2c3210a74f6a2efb5027f0ead29103369a59c8d80932bbba4ec328459",
+      "bytes": 13434,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_cfe081df9950_STP_Pickup_WoolHat_sprite.png",
+      "sha256": "b7d1a69a10c9623c44d4099e9f513c52dfa2199666e8016e47bc8d9db5129bff",
+      "bytes": 18938,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_77e6abb1a612_STP_Pickup_WoolHat2_sprite.png",
+      "sha256": "c59c7aced95df3ab4165b3c79d38a8e89a24c42d05d50d1d6be2f6d1ce6c66d6",
+      "bytes": 19663,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_168372a72473_STP_Pickup_WoolHat3_sprite.png",
+      "sha256": "0af6f150f23eacb63225f9b241e3254ff3dfd98a1f861554841c46defdd002ff",
+      "bytes": 20908,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_85efb3793ffd_STP_Pickup_WoolHat4_sprite.png",
+      "sha256": "d5b92f8b38a2e50f9f162c5dd4b2ebccda05012520776475eed4e754a0a45ec6",
+      "bytes": 21937,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_67b2b73b07c0_SV13_Plank_sprite.png",
+      "sha256": "9194b16ccf034704d96a0dad55fcd493c016834bc1d115037d422ce138bdbe31",
+      "bytes": 9639,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_96f5f12ff488_SV13_Saw_PickUp_sprite.png",
+      "sha256": "7c9a162edfaa92ce01c6945da0bfe337f7e6df16f970787e179fa4b5ab63817f",
+      "bytes": 7403,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_e2f7b96cbed0_SV13_WorkBench_sprite.png",
+      "sha256": "9238768f769be10d82cd4df29e258784d3483ed1076c5d14c80bd58187a24a56",
+      "bytes": 17886,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_a42c02bac379_SV13PickUpFlask_sprite.png",
+      "sha256": "adcd2993f6cdf1527932c32d68093a775f009aa14efb39c1f789dc14e30a7b43",
+      "bytes": 19065,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_97c95b9ecade_Tanning_Rack_sprite.png",
+      "sha256": "91835978bf2e202d393e3bd7e99b310cec7ae7c1c7ed4f67af54f68f6d4d5b7c",
+      "bytes": 11063,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_657c2cadd9f4_Vegetable_Starch-Small_Container_Bottle_sprite.png",
+      "sha256": "9545554e0ec8eda5bcf7ec8ff9d2d416231e0d1016addbd0e377477d573dfd60",
+      "bytes": 17889,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_17ec3333c503_Wast_Generator_sprite.png",
+      "sha256": "7ebfea64c7ecdd99bcde1da665ad13af04acb6b7996ac60c8cf7a6138266907e",
+      "bytes": 28495,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_d98bec111338_Wires_sprite.png",
+      "sha256": "0f637fd6057c375958e41f6bc1e1c187ac2ca739fa4351654481e94cdd02f077",
+      "bytes": 17846,
+      "recordCount": 0
+    },
+    {
+      "fileName": "media_index.json",
+      "sha256": "7ec121dd20461a387b864c2b817dd591b440ae1c26b16a603c35e8639bab4e7d",
+      "bytes": 79997,
+      "recordCount": 277
+    }
+  ],
+  "notes": [
+    "This package is generated directly from authoritative definition asset types and linked prefabs; it does not depend on the slow v0.6 domain-discovery report.",
+    "contentStatus is a source/review classification, not a claim that every exported definition is currently reachable in gameplay.",
+    "Player-facing media bundle attached by SV13_build_media_bundle.js; raw Unity asset paths remain unchanged for auditing."
+  ]
+}
