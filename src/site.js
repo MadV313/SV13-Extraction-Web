@@ -1,5 +1,6 @@
 let searchIndexPromise;
 const loadIndex = () => searchIndexPromise ||= fetch('/search-index.json', { cache:'no-store' }).then(r => r.json());
+const safe = v => String(v??'').replace(/[&<>\"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','\"':'&quot;',"'":'&#39;'}[c]));
 const norm = v => String(v||'').toLowerCase().trim();
 function score(q, item){
   q=norm(q); if(!q) return 0;
@@ -8,9 +9,9 @@ function score(q, item){
   const parts=q.split(/\s+/).filter(Boolean); if(parts.every(x=>hay.includes(x))) return 82;
   return hay.includes(q) ? 75 : 0;
 }
-function imageHtml(item){return item.image?`<img src="${item.image}" alt="" loading="lazy">`:`<div class="placeholder">◈</div>`}
+function imageHtml(item){return item.image?`<img src="${safe(item.image)}" alt="" loading="lazy">`:`<div class="placeholder">◈</div>`}
 
-for(const btn of document.querySelectorAll('[data-mobile-toggle]')) btn.addEventListener('click',()=>document.querySelector('.nav')?.classList.toggle('open'));
+for(const btn of document.querySelectorAll('[data-mobile-toggle]')) btn.addEventListener('click',()=>(()=>{const nav=document.querySelector('.nav');const open=nav?.classList.toggle('open');btn.setAttribute('aria-expanded',String(Boolean(open)));})());
 
 for(const input of document.querySelectorAll('[data-global-search]')){
   const box=input.parentElement.querySelector('.search-suggest');
@@ -19,7 +20,7 @@ for(const input of document.querySelectorAll('[data-global-search]')){
     const idx=await loadIndex();
     const results=idx.map(x=>[score(q,x),x]).filter(x=>x[0]>0).sort((a,b)=>b[0]-a[0]||a[1].name.localeCompare(b[1].name)).slice(0,8).map(x=>x[1]);
     if(!box)return;
-    box.innerHTML=results.length?results.map(x=>`<a class="suggestion" href="${x.url}">${imageHtml(x)}<span><strong>${x.name}</strong><small>${x.kindLabel}${x.subtitle?' • '+x.subtitle:''}</small></span></a>`).join(''):`<div class="suggestion"><span></span><span><strong>No match</strong><small>Try another term</small></span></div>`;
+    box.innerHTML=results.length?results.map(x=>`<a class="suggestion" href="${safe(x.url)}">${imageHtml(x)}<span><strong>${safe(x.name)}</strong><small>${safe(x.kindLabel)}${x.subtitle?' • '+x.subtitle:''}</small></span></a>`).join(''):`<div class="suggestion"><span></span><span><strong>No match</strong><small>Try another term</small></span></div>`;
     box.classList.add('open');
   };
   input.addEventListener('input',render); input.addEventListener('focus',render);
@@ -40,7 +41,7 @@ if(pageInput){
     else results=results.slice().sort((a,b)=>a.name.localeCompare(b.name));
     results=results.slice(0,100);
     if(count) count.textContent=`${results.length}${results.length===100?'+' : ''} result${results.length===1?'':'s'}`;
-    if(output) output.innerHTML=results.length?results.map(x=>`<a class="search-result" href="${x.url}">${imageHtml(x)}<div><div class="kind">${x.kindLabel}</div><h3>${x.name}</h3><p>${x.subtitle||''}</p></div><span class="arrow">→</span></a>`).join(''):`<div class="empty">No public Survivor Database entries matched that search.</div>`;
+    if(output) output.innerHTML=results.length?results.map(x=>`<a class="search-result" href="${safe(x.url)}">${imageHtml(x)}<div><div class="kind">${safe(x.kindLabel)}</div><h3>${safe(x.name)}</h3><p>${x.subtitle||''}</p></div><span class="arrow">→</span></a>`).join(''):`<div class="empty">No public Survivor Database entries matched that search.</div>`;
     const url=new URL(location.href); q?url.searchParams.set('q',q):url.searchParams.delete('q'); selected!=='all'?url.searchParams.set('kind',selected):url.searchParams.delete('kind'); history.replaceState(null,'',url);
   };
   const params=new URLSearchParams(location.search); pageInput.value=params.get('q')||''; if(kind&&params.get('kind'))kind.value=params.get('kind');
