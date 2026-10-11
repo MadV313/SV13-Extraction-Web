@@ -1,8 +1,8 @@
 # Discord / Railway integration
 
-The website is deliberately built from the same knowledge package as the bot.
+The website and Discord bot deliberately consume the same hosted knowledge package.
 
-Once `https://sv13ext.com/knowledge/manifest.json` is live and verified, update Railway:
+Railway production values remain:
 
 ```text
 WEB_BASE_URL=https://sv13ext.com
@@ -15,15 +15,30 @@ AUTO_PUBLISH=false
 
 Keep the persistent Railway volume.
 
-The existing bot's remote knowledge source will download the manifest-listed JSON **and media files**, verify their hashes, cache them on the volume, and the v0.2 media resolver can then attach the appropriate in-game sprite to Discord embeds.
+The hosted package now includes the original definitions plus:
 
-After changing the variables:
+```text
+/knowledge/areas.json
+/knowledge/weather.json
+/knowledge/ui.json
+/knowledge/media_index.json
+/knowledge/sv13_media_...
+```
 
-1. Redeploy the bot.
-2. Confirm the log reports a `remote:https://sv13ext.com/knowledge` knowledge source.
-3. Run `/sv13status`.
-4. Test `/item Carrot`, `/crop Cabbage`, `/building GreenHouse`, and `/recipe .45 ACP`.
-5. Verify sprites appear.
-6. Keep `AUTO_PUBLISH=false` until permanent forum posts are reviewed.
+The web media bundler now includes authoritative HUD/UI icon paths as well as item, buildable and map artwork, allowing the v0.3 bot's `/ui` embeds to resolve the same assets used by the website.
 
-Do not delete the Railway volume; it still stores SQLite publication/channel state and the verified remote cache.
+## Post-deploy checks
+
+After the website has deployed the new package:
+
+1. Confirm `/knowledge/manifest.json` reports package `20261011-181816` (or the newest later package).
+2. Confirm `/knowledge/media_index.json` loads and is non-empty.
+3. Run `/sv13sync` in Discord.
+4. Run `/sv13status`.
+5. Test `/map Player Cabin`.
+6. Test `/weather Player Cabin`.
+7. Test `/ui Health`, `/ui Stamina`, `/ui Blizzard`, and `/ui Skill Point`.
+8. Verify item/building/UI images appear.
+9. Keep `AUTO_PUBLISH=false` until permanent forum updates have been reviewed.
+
+Do not delete the Railway volume; it stores SQLite publication/channel state and the verified remote cache.

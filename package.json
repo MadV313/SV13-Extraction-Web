@@ -1,16 +1,17 @@
 {
   "name": "sv13-extraction-web",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "private": true,
   "type": "module",
-  "description": "SV13 Extraction Survivor Database / Field Manual generated from the authoritative Unity knowledge export.",
+  "description": "SV13 Extraction official site + Unity-backed Survivor Database, map, weather and HUD intelligence.",
   "scripts": {
-    "build": "node tools/build-site.mjs",
+    "build": "node tools/check-knowledge.mjs && node tools/build-site.mjs",
     "preview": "node tools/serve.mjs",
     "check": "node tools/check-knowledge.mjs",
     "knowledge:sync": "node tools/sync-knowledge.mjs",
     "media:build": "node tools/build-media-bundle.mjs",
-    "deploy": "npx wrangler@latest deploy"
+    "deploy": "npx wrangler@latest deploy",
+    "update:unity": "node tools/update-from-unity.mjs"
   },
   "engines": {
     "node": ">=20"

@@ -36,6 +36,10 @@ Before attaching the real domain, confirm:
 - `/crops/`
 - `/fishing/`
 - `/maps/`
+- `/maps/player-cabin/`
+- `/weather/`
+- `/weather/player-cabin/`
+- `/ui/`
 - `/codex/`
 - `/knowledge/manifest.json`
 - a few item/building pages with sprites
