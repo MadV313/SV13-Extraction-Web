@@ -1,11 +1,11 @@
 SV13 KNOWLEDGE PACKAGE
-Toolkit: 0.7.1
-Knowledge schema: 1
-Package: 20261011-021509
-Generated UTC: 2026-10-11T02:15:09.3583985Z
+Toolkit: 0.9.1
+Knowledge schema: 4
+Package: 20261011-181816
+Generated UTC: 2026-10-11T18:18:16.7042123Z
 Unity: 2022.3.62f3
 Project: TestAssets
-Export duration: 15.14s
+Export duration: 5.22s
 
 COUNTS
 Items: 222
@@ -20,11 +20,14 @@ Fishing loot: 9
 Documents: 33
 Levels: 14
 Loot tables: 5
+Areas: 14
+Weather profiles: 1
 
 VALIDATION
-Issues: 7
+Issues: 19
 Warnings: 7
 Errors: 0
+  AREA_SCENE_CAPTURE_MISSING: 12
   DUPLICATE_BUILDING_PIECE_ID: 4
   DUPLICATE_ITEM_ID: 3
 
@@ -39,4 +42,5 @@ BOT CONTRACT
 Stable folder: SV13_Knowledge/Latest
 Read manifest.json first.
 Use SHA-256 file hashes to detect which data files changed.
+areas.json is the curated scene/map relationship layer; weather.json separates scheduled area weather from supported hazards/player exposure; ui.json is the player-facing UI/icon guide.
 Do not publish LegacyReview or TemplateExampleReview records without review.
