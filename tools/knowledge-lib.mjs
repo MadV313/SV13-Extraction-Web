@@ -29,7 +29,8 @@ export function verifyKnowledgeDir(knowledgeDir) {
   const required = [
     'items.json', 'recipes.json', 'item_categories.json', 'buildables.json',
     'build_materials.json', 'crops.json', 'fishing.json', 'documents.json',
-    'levels.json', 'loot_tables.json', 'validation.json'
+    'levels.json', 'loot_tables.json', 'areas.json', 'weather.json', 'ui.json',
+    'validation.json'
   ];
   const names = new Set(manifest.files.filter(x => x && typeof x === 'object').map(x => String(x.fileName || '')));
   const missingEntries = required.filter(x => !names.has(x));
@@ -76,6 +77,17 @@ export function friendlyLabel(value) {
   return text;
 }
 
+export function readableIdentifier(value) {
+  let text = friendlyLabel(value);
+  if (!text) return '';
+  text = text
+    .replace(/([a-z0-9])([A-Z])/g, '$1 $2')
+    .replace(/([A-Z])([A-Z][a-z])/g, '$1 $2')
+    .replace(/\s+/g, ' ')
+    .trim();
+  return text;
+}
+
 export function rarityLabel(value) {
   return friendlyLabel(value).replace(/^RarityLevel\s*/i, '').trim() || 'Unknown';
 }
@@ -91,11 +103,35 @@ export function displayName(kind, record) {
   else if (kind === 'fishing') raw = record.lootName || record.assetName || '';
   else if (kind === 'document') raw = record.title || record.id || '';
   else if (kind === 'level') raw = record.name || record.assetName || '';
+  else if (kind === 'area') raw = record.name || record.areaName || record.sceneName || record.areaKey || '';
+  else if (kind === 'weather') raw = record.areaName || record.name || record.sceneName || record.areaKey || '';
+  else if (kind === 'ui') raw = record.name || record.iconName || record.uiKey || '';
   else raw = record.name || '';
   return friendlyLabel(raw);
 }
 
 export function isPublic(kind, record) {
+  if (!record || typeof record !== 'object') return false;
+
+  // Scene-derived knowledge does not carry definition contentStatus.
+  if (kind === 'weather') {
+    return Boolean(record.hasWeatherSystem && displayName(kind, record).trim());
+  }
+  if (kind === 'ui') {
+    const name = displayName(kind, record).trim();
+    if (!name) return false;
+    const hasEvidence = Boolean(
+      record.iconAuthoritative ||
+      String(record.iconAssetPath || '').trim() ||
+      (record.visibleLabels || []).some(x => String(x || '').trim()) ||
+      String(record.meaning || '').trim()
+    );
+    return hasEvidence;
+  }
+  if (kind === 'area') {
+    return Boolean(String(record.sceneName || '').trim() && displayName(kind, record).trim());
+  }
+
   const status = String(record?.source?.contentStatus || '').trim();
   if (!PUBLIC_STATUSES.has(status)) return false;
   const name = displayName(kind, record).trim();
@@ -146,6 +182,9 @@ export function entityKey(kind, record) {
   if (kind === 'fishing') return `fishing:${assetPath}`;
   if (kind === 'document') return `document:${record.id || ''}:${assetPath}`;
   if (kind === 'level') return `level:${assetPath}`;
+  if (kind === 'area') return `area:${record.areaKey || record.sceneAssetPath || displayName(kind, record)}`;
+  if (kind === 'weather') return `weather:${record.areaKey || record.sceneAssetPath || displayName(kind, record)}`;
+  if (kind === 'ui') return `ui:${record.uiKey || record.iconGuid || displayName(kind, record)}`;
   return `${kind}:${assetPath}:${displayName(kind, record)}`;
 }
 
@@ -158,6 +197,9 @@ export function aliases(kind, record) {
   else if (kind === 'fishing') out.push(record.lootName || record.assetName || '');
   else if (kind === 'document') out.push(record.title || record.id || '');
   else if (kind === 'level') out.push(record.name || record.assetName || '');
+  else if (kind === 'area') out.push(record.name || record.areaName || '', record.sceneName || '', record.areaKey || '');
+  else if (kind === 'weather') out.push(record.areaName || '', record.sceneName || '', record.areaKey || '');
+  else if (kind === 'ui') out.push(record.name || '', record.iconName || '', record.category || '');
   else out.push(record.name || '');
 
   if (kind === 'item') out.push(record.description || '', record.longDescription || '', record.categoryName || '');
@@ -173,6 +215,24 @@ export function aliases(kind, record) {
   if (kind === 'bait' || kind === 'fishing') out.push(record.description || '', record.baitTier || '', record.lootTier || '', record.lootType || '');
   if (kind === 'document') out.push(record.id || '', record.codexEntryId || '', record.documentType || '');
   if (kind === 'level') out.push(record.sceneName || '', record.description || '', record.assetName || '');
+  if (kind === 'area') {
+    out.push(record.description || '');
+    out.push((record.activities || []).join(' '));
+    out.push((record.borenUpgrades || []).join(' '));
+    out.push((record.upgrades || []).flatMap(x => [x?.name || '', x?.summary || '', ...(x?.capabilities || [])]).join(' '));
+    out.push((record.specialFeatures || []).flatMap(x => [x?.name || '', x?.summary || '', ...(x?.capabilities || [])]).join(' '));
+  }
+  if (kind === 'weather') {
+    out.push((record.scheduledWeatherTypes || record.stormTypes || []).join(' '));
+    out.push((record.supportedHazardTypes || []).join(' '));
+    out.push((record.facts || []).map(x => `${x?.label || ''} ${x?.value || ''}`).join(' '));
+  }
+  if (kind === 'ui') {
+    out.push(record.meaning || '', record.importance || '', record.iconEvidenceKind || '');
+    out.push((record.visibleLabels || []).join(' '));
+    out.push((record.sourceScenes || []).join(' '));
+    out.push((record.hierarchyPaths || []).join(' '));
+  }
   return out.map(String).filter(Boolean);
 }
 
@@ -189,20 +249,56 @@ export function loadKnowledge(knowledgeDir) {
   const documents = load('documents.json');
   const levels = load('levels.json');
   const lootTables = load('loot_tables.json');
+  const areas = load('areas.json');
+  const weather = load('weather.json');
+  const ui = load('ui.json');
   const validation = load('validation.json');
-  const mediaIndexRaw = fs.existsSync(path.join(knowledgeDir, 'media_index.json')) ? load('media_index.json') : { assets: [] };
+  const mediaIndexPath = path.join(knowledgeDir, 'media_index.json');
+  const mediaIndexRaw = fs.existsSync(mediaIndexPath) ? load('media_index.json') : { assets: [] };
   const mediaIndex = new Map();
   for (const entry of mediaIndexRaw.assets || []) {
     if (entry?.assetPath && entry?.fileName) mediaIndex.set(String(entry.assetPath), String(entry.fileName));
   }
-  return { manifest, items, recipes, categories, buildables, buildMaterials, crops, fishing, documents, levels, lootTables, validation, mediaIndex };
+  return {
+    manifest, items, recipes, categories, buildables, buildMaterials, crops, fishing,
+    documents, levels, lootTables, areas, weather, ui, validation,
+    mediaIndex, mediaBundlePresent: fs.existsSync(mediaIndexPath)
+  };
 }
 
 export function buildMaps(data) {
   const itemById = new Map(data.items.map(x => [Number(x.id), x]));
   const itemByCleanName = new Map(data.items.map(x => [friendlyLabel(x.name).toLowerCase(), x]));
   const buildMaterialById = new Map(data.buildMaterials.map(x => [Number(x.id), x]));
-  return { itemById, itemByCleanName, buildMaterialById };
+  const buildableById = new Map();
+  const buildableByPath = new Map();
+  for (const x of data.buildables || []) {
+    if (!buildableById.has(Number(x.id))) buildableById.set(Number(x.id), x);
+    const p = String(x?.source?.assetPath || '');
+    if (p) buildableByPath.set(p.toLowerCase(), x);
+  }
+  const documentById = new Map((data.documents || []).map(x => [String(x.id || '').toLowerCase(), x]));
+  const documentByPath = new Map();
+  for (const x of data.documents || []) {
+    const p = String(x?.source?.assetPath || '');
+    if (p) documentByPath.set(p.toLowerCase(), x);
+  }
+  const areaByKey = new Map();
+  const areaBySceneName = new Map();
+  const areaByScenePath = new Map();
+  for (const x of data.areas || []) {
+    if (x?.areaKey) areaByKey.set(String(x.areaKey).toLowerCase(), x);
+    if (x?.sceneName) areaBySceneName.set(String(x.sceneName).toLowerCase(), x);
+    if (x?.sceneAssetPath) areaByScenePath.set(String(x.sceneAssetPath).toLowerCase(), x);
+  }
+  const weatherByAreaKey = new Map();
+  for (const x of data.weather || []) if (x?.areaKey) weatherByAreaKey.set(String(x.areaKey).toLowerCase(), x);
+  const uiByKey = new Map((data.ui || []).filter(x => x?.uiKey).map(x => [String(x.uiKey), x]));
+  return {
+    itemById, itemByCleanName, buildMaterialById, buildableById, buildableByPath,
+    documentById, documentByPath, areaByKey, areaBySceneName, areaByScenePath,
+    weatherByAreaKey, uiByKey
+  };
 }
 
 export function mediaAssetPath(kind, record, maps) {
@@ -221,7 +317,8 @@ export function mediaAssetPath(kind, record, maps) {
     const item = maps.itemByCleanName.get(friendlyLabel(record.lootName || record.assetName).toLowerCase());
     return String(item?.iconAssetPath || '');
   }
-  if (kind === 'level') return String(record.thumbnailAssetPath || record.loadingImageAssetPath || '');
+  if (kind === 'level' || kind === 'area') return String(record.thumbnailAssetPath || record.loadingImageAssetPath || '');
+  if (kind === 'ui') return String(record.iconAssetPath || '');
   return '';
 }
 

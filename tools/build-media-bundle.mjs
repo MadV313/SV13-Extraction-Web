@@ -28,30 +28,51 @@ function safeName(assetPath) {
 function gather(knowledgeDir) {
   const found = new Set();
   const add = x => { const v = String(x || '').trim(); if (v) found.add(v); };
-  for (const name of ['items.json','item_categories.json','build_materials.json','buildables.json']) {
+
+  for (const name of ['items.json', 'item_categories.json', 'build_materials.json', 'buildables.json']) {
     const p = path.join(knowledgeDir, name);
     if (!fs.existsSync(p)) continue;
-    const data = readJson(p);
-    if (Array.isArray(data)) for (const r of data) add(r?.iconAssetPath);
+    const records = readJson(p);
+    if (Array.isArray(records)) for (const r of records) add(r?.iconAssetPath);
   }
-  const levelsPath = path.join(knowledgeDir, 'levels.json');
-  if (fs.existsSync(levelsPath)) {
-    const levels = readJson(levelsPath);
-    if (Array.isArray(levels)) for (const r of levels) { add(r?.thumbnailAssetPath); add(r?.loadingImageAssetPath); }
+
+  for (const name of ['levels.json', 'areas.json']) {
+    const p = path.join(knowledgeDir, name);
+    if (!fs.existsSync(p)) continue;
+    const records = readJson(p);
+    if (Array.isArray(records)) {
+      for (const r of records) {
+        add(r?.thumbnailAssetPath);
+        add(r?.loadingImageAssetPath);
+      }
+    }
   }
-  return [...found].sort((a,b) => a.localeCompare(b));
+
+  // v0.9.1+ UI intelligence exposes authoritative rendered HUD/menu icon asset paths.
+  // Copy these into /knowledge so the website and Discord can render the same icon guide.
+  const uiPath = path.join(knowledgeDir, 'ui.json');
+  if (fs.existsSync(uiPath)) {
+    const ui = readJson(uiPath);
+    if (Array.isArray(ui)) {
+      for (const r of ui) {
+        if (r?.iconAuthoritative || String(r?.iconEvidenceKind || '').trim()) add(r?.iconAssetPath);
+      }
+    }
+  }
+
+  return [...found].sort((a, b) => a.localeCompare(b));
 }
 
 const args = parseArgs(process.argv.slice(2));
 if (args.help || !args.unityProject) {
-  console.log('Usage: node tools/build-media-bundle.mjs --unity-project "C:\\Unity Projects\\TestAssets" [--knowledge "...\\SV13_Knowledge\\Latest"]');
+  console.log('Usage: node tools/build-media-bundle.mjs --unity-project "C:\\Unity Projects\\TestAssets" [--knowledge ".\\knowledge\\Latest"]');
   process.exit(args.help ? 0 : 2);
 }
 
 const unity = path.resolve(args.unityProject);
 const knowledge = path.resolve(args.knowledge || path.join(unity, 'SV13_Knowledge', 'Latest'));
 const manifestPath = path.join(knowledge, 'manifest.json');
-if (!fs.existsSync(path.join(unity, 'Assets'))) throw new Error(`Unity Assets folder not found: ${path.join(unity,'Assets')}`);
+if (!fs.existsSync(path.join(unity, 'Assets'))) throw new Error(`Unity Assets folder not found: ${path.join(unity, 'Assets')}`);
 if (!fs.existsSync(manifestPath)) throw new Error(`Knowledge manifest not found: ${manifestPath}`);
 
 for (const name of fs.readdirSync(knowledge)) {
@@ -73,7 +94,7 @@ for (const assetPath of requested) {
 }
 
 const indexPath = path.join(knowledge, INDEX_NAME);
-writeJson(indexPath, { schemaVersion: '1', generatedUtc: new Date().toISOString(), assets });
+writeJson(indexPath, { schemaVersion: '2', generatedUtc: new Date().toISOString(), assets, missing, unsupported });
 
 const manifest = readJson(manifestPath);
 if (!Array.isArray(manifest.files)) throw new Error('manifest.json files must be an array.');
@@ -83,6 +104,8 @@ manifest.files.push({ fileName: INDEX_NAME, sha256: sha256File(indexPath), bytes
 manifest.notes ??= [];
 const note = 'Player-facing media bundle attached by SV13 web tooling; raw Unity asset paths remain unchanged for auditing.';
 if (!manifest.notes.includes(note)) manifest.notes.push(note);
+const uiNote = 'Web media bundling includes authoritative UI/HUD icon paths from ui.json in addition to item, buildable and level artwork.';
+if (!manifest.notes.includes(uiNote)) manifest.notes.push(uiNote);
 writeJson(manifestPath, manifest);
 
 console.log('SV13 media bundle complete');
@@ -91,5 +114,5 @@ console.log('Referenced images:', requested.length);
 console.log('Copied:', assets.length);
 console.log('Missing:', missing.length);
 console.log('Unsupported format:', unsupported.length);
-if (missing.length) console.log('Missing examples:\n' + missing.slice(0,15).map(x=>' - '+x).join('\n'));
-if (unsupported.length) console.log('Unsupported examples:\n' + unsupported.slice(0,15).map(x=>' - '+x).join('\n'));
+if (missing.length) console.log('Missing examples:\n' + missing.slice(0, 15).map(x => ' - ' + x).join('\n'));
+if (unsupported.length) console.log('Unsupported examples:\n' + unsupported.slice(0, 15).map(x => ' - ' + x).join('\n'));
