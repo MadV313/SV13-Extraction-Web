@@ -41,7 +41,7 @@ if(pageInput){
     else results=results.slice().sort((a,b)=>a.name.localeCompare(b.name));
     results=results.slice(0,100);
     if(count) count.textContent=`${results.length}${results.length===100?'+' : ''} result${results.length===1?'':'s'}`;
-    if(output) output.innerHTML=results.length?results.map(x=>`<a class="search-result" href="${safe(x.url)}">${imageHtml(x)}<div><div class="kind">${safe(x.kindLabel)}</div><h3>${safe(x.name)}</h3><p>${x.subtitle||''}</p></div><span class="arrow">→</span></a>`).join(''):`<div class="empty">No public Survivor Database entries matched that search.</div>`;
+    if(output) output.innerHTML=results.length?results.map(x=>`<a class="search-result" href="${safe(x.url)}">${imageHtml(x)}<div><div class="kind">${safe(x.kindLabel)}</div><h3>${safe(x.name)}</h3><p>${safe(x.subtitle||'')}</p></div><span class="arrow">→</span></a>`).join(''):`<div class="empty">No public Survivor Database entries matched that search.</div>`;
     const url=new URL(location.href); q?url.searchParams.set('q',q):url.searchParams.delete('q'); selected!=='all'?url.searchParams.set('kind',selected):url.searchParams.delete('kind'); history.replaceState(null,'',url);
   };
   const params=new URLSearchParams(location.search); pageInput.value=params.get('q')||''; if(kind&&params.get('kind'))kind.value=params.get('kind');

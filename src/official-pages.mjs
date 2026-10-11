@@ -48,6 +48,8 @@ export const siteSearchEntries=[
     ['Register Survivor Account','/register/'],
     ['Log In to Survivor Account','/login/'],
     ['Player Overview','/player-overview/'],
+    ['Weather & Survival Guide','/weather/'],
+    ['HUD & Icon Guide','/ui/'],
     ['About SV13','/about/']
   ].map(([name,url])=>({kind:'site',name,kindLabel:'Official Website',subtitle:'SV13 Extraction',url,image:'',keywords:['sv13','survivor','extraction','account','community']}))
 ];
@@ -57,11 +59,13 @@ export function sitePages({counts,packageVersion}){
     ['01','Item Index',`${counts.items} public item records`,'/items/'],
     ['02','Crafting Manual',`${counts.recipes} confirmed recipes`,'/recipes/'],
     ['03','Construction',`${counts.buildings} buildable definitions`,'/buildings/'],
-    ['04','Farming & Fishing','Growing and fishing guides','/crops/'],
-    ['05','Maps','Known areas and location intel','/maps/'],
-    ['06','Recovered Intel',`${counts.documents} documents`,'/codex/'],
-    ['07','Search Everything','Search the full field manual','/search/'],
-    ['08','Fishing','Baits and catches','/fishing/']
+    ['04','Farming','Growing, water and crop temperature guides','/crops/'],
+    ['05','Maps',`${counts.capturedAreas} fully captured area${counts.capturedAreas===1?'':'s'} / ${counts.maps} public maps`,'/maps/'],
+    ['06','Weather & Survival',`${counts.weather} captured environment profile${counts.weather===1?'':'s'}`,'/weather/'],
+    ['07','HUD & Icon Guide',`${counts.ui} captured interface records`,'/ui/'],
+    ['08','Recovered Intel',`${counts.documents} documents`,'/codex/'],
+    ['09','Fishing','Baits and catches','/fishing/'],
+    ['10','Search Everything','Search the full field manual','/search/']
   ];
   const p=(route,title,description,active,body)=>({route,title,description,active,body:wrap(body)});
   return [
@@ -78,7 +82,7 @@ export function sitePages({counts,packageVersion}){
       section('runs','CORE LOOP','Deploy. Survive. Return.','Scavenge equipment and resources in hostile locations, then extract what you can carry back to your persistent refuge.', `${feature({eyebrow:'EXTRACTION RUNS',title:'Risk vs reward in the field',description:'Your expeditions are about decision-making under pressure: how deep to push, what to loot, when to cut losses, and how to get out alive. Runs should feel tense, valuable, and worth repeating.',image:ART.run,alt:'Survivors scavenging during an extraction run',caption:'Temporary website artwork — extraction run'})}<div class="action-row">${link('/play/','HOW TO ACCESS THE BUILD')}${link('/database/','BROWSE FIELD INTEL','button outline')}</div>`)+
       section('refuge','PERSISTENCE','Build something worth returning to','Between runs, your persistent refuge gives purpose to scavenging. Resources, stations, storage and future upgrades reinforce the long-term survival loop.', feature({eyebrow:'PERSISTENT REFUGE',title:'Cabin progression between missions',description:'The cabin and its surrounding stations are the backbone of long-form progression. That includes crafting spaces, storage, generator-powered utilities, farming, medical and other expansion systems as they come online.',image:ART.refuge,alt:'Survivor refuge cabin with workshop',caption:'Temporary website artwork — refuge buildout',reverse:true}) )+
       section('encounters','SURVIVAL PRESSURE','Not every threat is human','Field encounters can involve infected threats, dangerous spaces, weather pressure, resource scarcity, and future PvE/PvP tension depending on the current build and mode.', feature({eyebrow:'HOSTILE CONTACT',title:'Danger in every deployment',description:'The world should stay unstable. Players need to navigate noise, visibility, exposure, and enemy pressure while carrying the risk of losing what they brought in.',image:ART.encounter,alt:'Survivors facing infected in the field',caption:'Temporary website artwork — hostile encounter'}) )+
-      section('', 'FIELD SUPPORT', 'The working knowledge base is already live', 'If you want hard information instead of just a pitch page, the Survivor Database is still the best source for public items, crafting, construction and other extracted knowledge.', `${tiles([['01','Items & Loot','Browse the current public item index','/items/'],['02','Recipes','Check public crafting records','/recipes/'],['03','Construction','See buildables and requirements','/buildings/'],['04','Search','Find specific field intel fast','/search/']])}`)
+      section('', 'FIELD SUPPORT', 'The working knowledge base is already live', 'If you want hard information instead of just a pitch page, the Survivor Database now includes public items, crafting, construction, captured map activities, weather survival effects, and a HUD/icon guide.', `${tiles([['01','Items & Loot','Browse the current public item index','/items/'],['02','Maps & Systems','See activities, upgrades and local intel','/maps/'],['03','Weather & Survival','Understand exposure, shelter and storms','/weather/'],['04','HUD & Icons','Learn what interface symbols mean','/ui/']])}`)
     ),
 
     p('/play/','Play SV13 Extraction','How to access the currently available SV13 Extraction playable build.','play',
@@ -91,7 +95,7 @@ export function sitePages({counts,packageVersion}){
 
     p('/database/','Survivor Database','Unity-backed SV13 field manual and searchable knowledge base.','database',
       header('FIELD MANUAL','SURVIVOR DATABASE',`Live-generated public field intelligence. Knowledge package ${packageVersion}.`) +
-      section('', 'KNOWLEDGE UPLINK', 'Browse the records', 'The original database routes and sprites have been retained. This page is now the gateway into the existing wiki/data structure.', tiles(dbTiles)) +
+      section('', 'KNOWLEDGE UPLINK', 'Browse the records', 'The original database routes and sprites are retained, with new scene-derived map, weather, survival, HUD and icon intelligence layered on top of the same authoritative Unity export.', tiles(dbTiles)) +
       banner('SEARCH','Find something specific','Search items, crafting instructions, construction records and other exported knowledge.', link('/search/','SEARCH ALL INTEL'))
     ),
 
