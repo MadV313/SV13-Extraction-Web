@@ -1,17 +1,20 @@
 {
   "knowledgeSchemaVersion": "1",
-  "toolkitVersion": "0.7.0",
-  "packageVersion": "20261008-023146",
-  "generatedUtc": "2026-10-08T02:31:46.4214761Z",
+  "toolkitVersion": "0.7.1",
+  "packageVersion": "20261011-021509",
+  "generatedUtc": "2026-10-11T02:15:09.3583985Z",
   "unityVersion": "2022.3.62f3",
   "projectName": "TestAssets",
-  "exportDurationSeconds": 12.6275053024292,
+  "exportDurationSeconds": 15.13964557647705,
   "counts": {
     "items": 222,
     "recipes": 81,
     "itemCategories": 25,
     "buildables": 30,
     "buildMaterials": 11,
+    "buildableIconsDirect": 30,
+    "buildableIconsFromItems": 0,
+    "buildableIconsUnresolved": 0,
     "crops": 8,
     "fishingBaits": 12,
     "fishingLoot": 9,
@@ -43,8 +46,8 @@
     },
     {
       "fileName": "buildables.json",
-      "sha256": "c54d1316549cb60a00cfe010f3d4cbb876a835fac53e78224ce5cdac5b3efed7",
-      "bytes": 58784,
+      "sha256": "719b0676c4b0fa2683bb92e97123ee175d528fae765049c26a8b56282056fbf5",
+      "bytes": 69668,
       "recordCount": 30
     },
     {
@@ -91,8 +94,8 @@
     },
     {
       "fileName": "knowledge_summary.txt",
-      "sha256": "73504983ee61b5eb8afcae9e9212c900694d6c62f6a9f65baa27c433cf91d245",
-      "bytes": 853,
+      "sha256": "421315a916a67e3ccba6f81801a188f27899ceab4650299cc2ddfcb3be856115",
+      "bytes": 920,
       "recordCount": 0
     },
     {
@@ -441,12 +444,6 @@
       "fileName": "sv13_media_934c55fcd498_FPS_Item_SniperScope1.png",
       "sha256": "f46121caa9b1e60487858bffe8dbd793a4a99f49e4465bbcace1b3dbe7f07b27",
       "bytes": 154848,
-      "recordCount": 0
-    },
-    {
-      "fileName": "sv13_media_46f2388df6c4_FPS_Null.png",
-      "sha256": "18f4a1cd42487f18667071b2d0218d39a009b14b45754dfdfdbe4d492ae3e00a",
-      "bytes": 6101,
       "recordCount": 0
     },
     {
@@ -1308,6 +1305,12 @@
       "recordCount": 0
     },
     {
+      "fileName": "sv13_media_5aace3b7c50c_rope_way_sprite.png",
+      "sha256": "1c9487df93b416744c8c1d64e07616364db398fa9e6a5887f64516e7822a0e92",
+      "bytes": 5747,
+      "recordCount": 0
+    },
+    {
       "fileName": "sv13_media_46ae141e6d33_S-Mine_sprite.png",
       "sha256": "730cd1a4e5643de74a5acc55d7c9da14d14a283db695659e681402fb9a925d3d",
       "bytes": 19807,
@@ -1344,6 +1347,12 @@
       "recordCount": 0
     },
     {
+      "fileName": "sv13_media_0ce5b949b26a_SEP_Tent_sprite.png",
+      "sha256": "65ddf2795521a6d0d573a3915cc8b72265c333556b2c02212dd3dbcf72ee8ecb",
+      "bytes": 19690,
+      "recordCount": 0
+    },
+    {
       "fileName": "sv13_media_0de1a7f9c90f_ShootingRange_sprite.png",
       "sha256": "cc789b1d433753e7ee984cfd98bfa8416899bbde75c89d30925816cd8f096fd3",
       "bytes": 8577,
@@ -1359,6 +1368,54 @@
       "fileName": "sv13_media_4a661f8c7448_Springs-Small_Cardboard_Container_sprite.png",
       "sha256": "027fb7845a4e45b0dda853dcc2b8975172104695a0a87d103f81b373e8282337",
       "bytes": 28696,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_be8359f7018d_STP_BuildingPIece_Log_Door_sprite.png",
+      "sha256": "e2f7814adf83a2a6e1acfe40faff84ea6132107da03a656b8c610c9cce9d701b",
+      "bytes": 16340,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_720233d9f9c0_STP_BuildingPIece_Log_FlatRoof_sprite.png",
+      "sha256": "1c65dbdc6ee293cca05550c6e545300e9cd7b161a3c9f515fa6ba83fe2852b9a",
+      "bytes": 19105,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_192c8cc60fc9_STP_BuildingPIece_Log_L_ShapedStairs_sprite.png",
+      "sha256": "178a71ca45e948266d647979509fd3e4c4273dbb7adf26a6107d5d0d79dc93df",
+      "bytes": 20163,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_5c114a8bc2a6_STP_BuildingPIece_Log_OuterStairs_sprite.png",
+      "sha256": "ff247bfbca13e50164ea6723ba470635038eaf36efcb479b7c12e7ef4825b5d6",
+      "bytes": 22519,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_7a25261e550d_STP_BuildingPIece_Log_Platform_sprite.png",
+      "sha256": "24d1b9ab002aafb50b33f3e6d25b616e6772c3e2e5eecdb317960aed4460af39",
+      "bytes": 13993,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_1403c5aaab4c_STP_BuildingPIece_Log_Wall_sprite.png",
+      "sha256": "2a6faa0e1e2a84d55c398049265f2b9c253061596435433f1b5c8846c12af71c",
+      "bytes": 25954,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_499c21edd8a4_STP_BuildingPIece_Log_WallWithDoor_sprite.png",
+      "sha256": "8e6fc90db4e37ed3696e16943b8f2ae28a954ece161e4609a1482108166a7e18",
+      "bytes": 23465,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_25c401320b6a_STP_BuildingPIece_Log_WallWithWindow_sprite.png",
+      "sha256": "c82f8bdc0fd77f268dcf055c0498b5f1b784b3a540c12b898d3aed70d76e4cf2",
+      "bytes": 26060,
       "recordCount": 0
     },
     {
@@ -1740,6 +1797,24 @@
       "recordCount": 0
     },
     {
+      "fileName": "sv13_media_1b94c1e1b93e_tower_bottom_6m_A_sprite.png",
+      "sha256": "065d8183cda5d42434d2b4c2a3c5f2f313032fb4969349c3008dd8645b4aa2dc",
+      "bytes": 32724,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_e159f39336b4_tower_middle_C_sprite.png",
+      "sha256": "32a7c24fb76ba0f15cdf67b7664037c8436edeb95171e6de332294b69807863d",
+      "bytes": 27640,
+      "recordCount": 0
+    },
+    {
+      "fileName": "sv13_media_b46bc2a58a48_tower_top_A_green_sprite.png",
+      "sha256": "d7935bf3f37dab4894cfbdd879e688d8b3b92598c834cf0a6067f1486e553913",
+      "bytes": 14193,
+      "recordCount": 0
+    },
+    {
       "fileName": "sv13_media_657c2cadd9f4_Vegetable_Starch-Small_Container_Bottle_sprite.png",
       "sha256": "9545554e0ec8eda5bcf7ec8ff9d2d416231e0d1016addbd0e377477d573dfd60",
       "bytes": 17889,
@@ -1759,14 +1834,15 @@
     },
     {
       "fileName": "media_index.json",
-      "sha256": "7ec121dd20461a387b864c2b817dd591b440ae1c26b16a603c35e8639bab4e7d",
-      "bytes": 79997,
-      "recordCount": 277
+      "sha256": "da1375a445aef9ce87d56a948d9fe1a40503b1a1651d604c881b86bcffd205bf",
+      "bytes": 83303,
+      "recordCount": 289
     }
   ],
   "notes": [
     "This package is generated directly from authoritative definition asset types and linked prefabs; it does not depend on the slow v0.6 domain-discovery report.",
     "contentStatus is a source/review classification, not a claim that every exported definition is currently reachable in gameplay.",
-    "Player-facing media bundle attached by SV13_build_media_bundle.js; raw Unity asset paths remain unchanged for auditing."
+    "Buildable icon resolution preserves the BuildingPieceDefinition icon for auditing and may use a linked placeable ItemDefinition icon as the player-facing fallback when the definition icon is missing or a known placeholder.",
+    "Player-facing media bundle attached by SV13 web tooling; raw Unity asset paths remain unchanged for auditing."
   ]
 }

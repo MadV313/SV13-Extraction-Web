@@ -1,6 +1,6 @@
 {
   "schemaVersion": "1",
-  "generatedUtc": "2026-10-09T12:13:23.503Z",
+  "generatedUtc": "2026-10-11T02:37:50.022Z",
   "assets": [
     {
       "assetPath": "Assets/_Core/_UI/Key1Icon.png",
@@ -349,12 +349,6 @@
       "fileName": "sv13_media_934c55fcd498_FPS_Item_SniperScope1.png",
       "sha256": "f46121caa9b1e60487858bffe8dbd793a4a99f49e4465bbcace1b3dbe7f07b27",
       "bytes": 154848
-    },
-    {
-      "assetPath": "Assets/_Core/Templates/PolymindGames/FPSCore/Art/Sprites/Shared/FPS_Null.png",
-      "fileName": "sv13_media_46f2388df6c4_FPS_Null.png",
-      "sha256": "18f4a1cd42487f18667071b2d0218d39a009b14b45754dfdfdbe4d492ae3e00a",
-      "bytes": 6101
     },
     {
       "assetPath": "Assets/_Core/Templates/PolymindGames/FPSCore/Art/Sprites/Wieldables/Attachments/FPS_Attachment_Sight.png",
@@ -1215,6 +1209,12 @@
       "bytes": 11906
     },
     {
+      "assetPath": "Assets/Thumbnails/rope_way_sprite.png",
+      "fileName": "sv13_media_5aace3b7c50c_rope_way_sprite.png",
+      "sha256": "1c9487df93b416744c8c1d64e07616364db398fa9e6a5887f64516e7822a0e92",
+      "bytes": 5747
+    },
+    {
       "assetPath": "Assets/Thumbnails/S-Mine_sprite.png",
       "fileName": "sv13_media_46ae141e6d33_S-Mine_sprite.png",
       "sha256": "730cd1a4e5643de74a5acc55d7c9da14d14a283db695659e681402fb9a925d3d",
@@ -1251,6 +1251,12 @@
       "bytes": 25654
     },
     {
+      "assetPath": "Assets/Thumbnails/SEP_Tent_sprite.png",
+      "fileName": "sv13_media_0ce5b949b26a_SEP_Tent_sprite.png",
+      "sha256": "65ddf2795521a6d0d573a3915cc8b72265c333556b2c02212dd3dbcf72ee8ecb",
+      "bytes": 19690
+    },
+    {
       "assetPath": "Assets/Thumbnails/ShootingRange_sprite.png",
       "fileName": "sv13_media_0de1a7f9c90f_ShootingRange_sprite.png",
       "sha256": "cc789b1d433753e7ee984cfd98bfa8416899bbde75c89d30925816cd8f096fd3",
@@ -1267,6 +1273,54 @@
       "fileName": "sv13_media_4a661f8c7448_Springs-Small_Cardboard_Container_sprite.png",
       "sha256": "027fb7845a4e45b0dda853dcc2b8975172104695a0a87d103f81b373e8282337",
       "bytes": 28696
+    },
+    {
+      "assetPath": "Assets/Thumbnails/STP_BuildingPIece_Log_Door_sprite.png",
+      "fileName": "sv13_media_be8359f7018d_STP_BuildingPIece_Log_Door_sprite.png",
+      "sha256": "e2f7814adf83a2a6e1acfe40faff84ea6132107da03a656b8c610c9cce9d701b",
+      "bytes": 16340
+    },
+    {
+      "assetPath": "Assets/Thumbnails/STP_BuildingPIece_Log_FlatRoof_sprite.png",
+      "fileName": "sv13_media_720233d9f9c0_STP_BuildingPIece_Log_FlatRoof_sprite.png",
+      "sha256": "1c65dbdc6ee293cca05550c6e545300e9cd7b161a3c9f515fa6ba83fe2852b9a",
+      "bytes": 19105
+    },
+    {
+      "assetPath": "Assets/Thumbnails/STP_BuildingPIece_Log_L_ShapedStairs_sprite.png",
+      "fileName": "sv13_media_192c8cc60fc9_STP_BuildingPIece_Log_L_ShapedStairs_sprite.png",
+      "sha256": "178a71ca45e948266d647979509fd3e4c4273dbb7adf26a6107d5d0d79dc93df",
+      "bytes": 20163
+    },
+    {
+      "assetPath": "Assets/Thumbnails/STP_BuildingPIece_Log_OuterStairs_sprite.png",
+      "fileName": "sv13_media_5c114a8bc2a6_STP_BuildingPIece_Log_OuterStairs_sprite.png",
+      "sha256": "ff247bfbca13e50164ea6723ba470635038eaf36efcb479b7c12e7ef4825b5d6",
+      "bytes": 22519
+    },
+    {
+      "assetPath": "Assets/Thumbnails/STP_BuildingPIece_Log_Platform_sprite.png",
+      "fileName": "sv13_media_7a25261e550d_STP_BuildingPIece_Log_Platform_sprite.png",
+      "sha256": "24d1b9ab002aafb50b33f3e6d25b616e6772c3e2e5eecdb317960aed4460af39",
+      "bytes": 13993
+    },
+    {
+      "assetPath": "Assets/Thumbnails/STP_BuildingPIece_Log_Wall_sprite.png",
+      "fileName": "sv13_media_1403c5aaab4c_STP_BuildingPIece_Log_Wall_sprite.png",
+      "sha256": "2a6faa0e1e2a84d55c398049265f2b9c253061596435433f1b5c8846c12af71c",
+      "bytes": 25954
+    },
+    {
+      "assetPath": "Assets/Thumbnails/STP_BuildingPIece_Log_WallWithDoor_sprite.png",
+      "fileName": "sv13_media_499c21edd8a4_STP_BuildingPIece_Log_WallWithDoor_sprite.png",
+      "sha256": "8e6fc90db4e37ed3696e16943b8f2ae28a954ece161e4609a1482108166a7e18",
+      "bytes": 23465
+    },
+    {
+      "assetPath": "Assets/Thumbnails/STP_BuildingPIece_Log_WallWithWindow_sprite.png",
+      "fileName": "sv13_media_25c401320b6a_STP_BuildingPIece_Log_WallWithWindow_sprite.png",
+      "sha256": "c82f8bdc0fd77f268dcf055c0498b5f1b784b3a540c12b898d3aed70d76e4cf2",
+      "bytes": 26060
     },
     {
       "assetPath": "Assets/Thumbnails/STP_Pickup_Backpack1_sprite.png",
@@ -1645,6 +1699,24 @@
       "fileName": "sv13_media_97c95b9ecade_Tanning_Rack_sprite.png",
       "sha256": "91835978bf2e202d393e3bd7e99b310cec7ae7c1c7ed4f67af54f68f6d4d5b7c",
       "bytes": 11063
+    },
+    {
+      "assetPath": "Assets/Thumbnails/tower_bottom_6m_A_sprite.png",
+      "fileName": "sv13_media_1b94c1e1b93e_tower_bottom_6m_A_sprite.png",
+      "sha256": "065d8183cda5d42434d2b4c2a3c5f2f313032fb4969349c3008dd8645b4aa2dc",
+      "bytes": 32724
+    },
+    {
+      "assetPath": "Assets/Thumbnails/tower_middle_C_sprite.png",
+      "fileName": "sv13_media_e159f39336b4_tower_middle_C_sprite.png",
+      "sha256": "32a7c24fb76ba0f15cdf67b7664037c8436edeb95171e6de332294b69807863d",
+      "bytes": 27640
+    },
+    {
+      "assetPath": "Assets/Thumbnails/tower_top_A_green_sprite.png",
+      "fileName": "sv13_media_b46bc2a58a48_tower_top_A_green_sprite.png",
+      "sha256": "d7935bf3f37dab4894cfbdd879e688d8b3b92598c834cf0a6067f1486e553913",
+      "bytes": 14193
     },
     {
       "assetPath": "Assets/Thumbnails/Vegetable_Starch-Small_Container_Bottle_sprite.png",

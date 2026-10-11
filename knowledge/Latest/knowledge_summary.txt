@@ -1,11 +1,11 @@
 SV13 KNOWLEDGE PACKAGE
-Toolkit: 0.7.0
+Toolkit: 0.7.1
 Knowledge schema: 1
-Package: 20261008-023146
-Generated UTC: 2026-10-08T02:31:46.4214761Z
+Package: 20261011-021509
+Generated UTC: 2026-10-11T02:15:09.3583985Z
 Unity: 2022.3.62f3
 Project: TestAssets
-Export duration: 12.63s
+Export duration: 15.14s
 
 COUNTS
 Items: 222
@@ -13,6 +13,7 @@ Recipes: 81
 Item categories: 25
 Buildables: 30
 Build materials: 11
+Buildable icons (direct / item fallback / unresolved): 30 / 0 / 0
 Crops: 8
 Fishing bait: 12
 Fishing loot: 9
